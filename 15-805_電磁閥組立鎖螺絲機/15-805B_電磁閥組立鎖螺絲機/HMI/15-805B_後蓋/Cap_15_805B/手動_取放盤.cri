@@ -1,0 +1,292 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.30.24.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="手動_取放盤.bPG_Main" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.bPG_Tray" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.Group.bAct_PickTrayOut2" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.Group.bAct_PickTrayBack2" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.Group.bAct_PickTrayOut1" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.Group.bAct_PickTrayBack1" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.Group1.bAct_MoveOut" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.Group1.bAct_MoveBack" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.Group3.bAct_PickTrayClipBack" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.Group3.bAct_PickTrayClipOut" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.Group2.bAct_TakeTray" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.Group2.bAct_VerticalBar" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.Group2.bAct_HorizontalBar" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.bAct_ResetPB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.Group5.bAct_ServoOn" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.Group5.bAct_SpeedLowHigh" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.bPG_Seat" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.Group4.bAct_AxisZHomePB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.Group4.bAct_AxisZUp" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.Group4.bAct_AxisZDown" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.bAct_UnloadTrayPB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.bAct_LoadTrayPB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.bAct_GoFixMovePB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.bAct_GoTakeTrayPosPB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.bAct_ORGPosPB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.AnalogNumeric6" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.AnalogNumeric5" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.AnalogNumeric4" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.AnalogNumeric3" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.AnalogNumeric2" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.numCurrentAddressZ" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放盤.AnalogNumeric" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bPG_Main" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bPG_Main" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bPG_Main" TargetProperty="Actions" Source="Tags.CopyFileDataPB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bPG_Main" TargetProperty="Actions" Source="Tags.CopyFileDataPB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bPG_Main" TargetProperty="Actions" Source="Tags.CopyFileDataPB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bPG_Tray" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bPG_Tray" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group.bAct_PickTrayOut2" TargetProperty="Actions" Source="Tags.PickTrayOut2_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group.bAct_PickTrayOut2" TargetProperty="Actions" Source="Tags.PickTrayOut2_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group.bAct_PickTrayOut2" TargetProperty="Actions" Source="Tags.PickTrayOut2_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放盤.Group.bAct_PickTrayOut2" TargetProperty="Background" Source="Tags.PickTrayOut2_LS_E" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group.bAct_PickTrayBack2" TargetProperty="Actions" Source="Tags.PickTrayBack2_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group.bAct_PickTrayBack2" TargetProperty="Actions" Source="Tags.PickTrayBack2_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group.bAct_PickTrayBack2" TargetProperty="Actions" Source="Tags.PickTrayBack2_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放盤.Group.bAct_PickTrayBack2" TargetProperty="Background" Source="Tags.PickTrayBack2_SOL" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group.bAct_PickTrayOut1" TargetProperty="Actions" Source="Tags.PickTrayOut1_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group.bAct_PickTrayOut1" TargetProperty="Actions" Source="Tags.PickTrayOut1_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group.bAct_PickTrayOut1" TargetProperty="Actions" Source="Tags.PickTrayOut1_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放盤.Group.bAct_PickTrayOut1" TargetProperty="Background" Source="Tags.PickTrayOut1_LS_E" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group.bAct_PickTrayBack1" TargetProperty="Actions" Source="Tags.PickTrayBack1_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group.bAct_PickTrayBack1" TargetProperty="Actions" Source="Tags.PickTrayBack1_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group.bAct_PickTrayBack1" TargetProperty="Actions" Source="Tags.PickTrayBack1_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放盤.Group.bAct_PickTrayBack1" TargetProperty="Background" Source="Tags.PickTrayBack1_SOL" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group1.bAct_MoveOut" TargetProperty="Actions" Source="Tags.MoveOut_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group1.bAct_MoveOut" TargetProperty="Actions" Source="Tags.MoveOut_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group1.bAct_MoveOut" TargetProperty="Actions" Source="Tags.MoveOut_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放盤.Group1.bAct_MoveOut" TargetProperty="Background" Source="Tags.MoveOut_LS_E" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group1.bAct_MoveBack" TargetProperty="Actions" Source="Tags.MoveBack_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group1.bAct_MoveBack" TargetProperty="Actions" Source="Tags.MoveBack_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group1.bAct_MoveBack" TargetProperty="Actions" Source="Tags.MoveBack_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放盤.Group1.bAct_MoveBack" TargetProperty="Background" Source="Tags.MoveBack_SOL" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group3.bAct_PickTrayClipBack" TargetProperty="Actions" Source="Tags.PickTrayClipBack_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group3.bAct_PickTrayClipBack" TargetProperty="Actions" Source="Tags.PickTrayClipBack_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group3.bAct_PickTrayClipBack" TargetProperty="Actions" Source="Tags.PickTrayClipBack_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放盤.Group3.bAct_PickTrayClipBack" TargetProperty="Background" Source="Tags.PickTrayClipBack_SOL" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group3.bAct_PickTrayClipOut" TargetProperty="Actions" Source="Tags.PickTrayClipOut_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group3.bAct_PickTrayClipOut" TargetProperty="Actions" Source="Tags.PickTrayClipOut_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group3.bAct_PickTrayClipOut" TargetProperty="Actions" Source="Tags.PickTrayClipOut_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放盤.Group3.bAct_PickTrayClipOut" TargetProperty="Background" Source="Tags.PickTrayClipOut1_LS_E" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group2.bAct_TakeTray" TargetProperty="Actions" Source="Tags.TakeTray_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group2.bAct_TakeTray" TargetProperty="Actions" Source="Tags.TakeTray_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group2.bAct_TakeTray" TargetProperty="Actions" Source="Tags.TakeTray_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放盤.Group2.bAct_TakeTray" TargetProperty="Background" Source="Tags.TakeTray_SOL" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group2.bAct_VerticalBar" TargetProperty="Actions" Source="Tags.VerticalBar_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group2.bAct_VerticalBar" TargetProperty="Actions" Source="Tags.VerticalBar_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group2.bAct_VerticalBar" TargetProperty="Actions" Source="Tags.VerticalBar_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放盤.Group2.bAct_VerticalBar" TargetProperty="Background" Source="Tags.VerticalBar_SOL" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group2.bAct_HorizontalBar" TargetProperty="Actions" Source="Tags.HorizontalBar_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group2.bAct_HorizontalBar" TargetProperty="Actions" Source="Tags.HorizontalBar_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group2.bAct_HorizontalBar" TargetProperty="Actions" Source="Tags.HorizontalBar_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放盤.Group2.bAct_HorizontalBar" TargetProperty="Background" Source="Tags.HorizontalBar_SOL" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bAct_ResetPB" TargetProperty="Actions" Source="Tags.AllServoResetPB_Z" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bAct_ResetPB" TargetProperty="Actions" Source="Tags.AllServoResetPB_Z" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bAct_ResetPB" TargetProperty="Actions" Source="Tags.AllServoResetPB_Z" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放盤.bAct_ResetPB" TargetProperty="Value" Source="Tags.AllServoResetPB_Z" />
+        <Item Target="手動_取放盤.bAct_ResetPB" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="手動_取放盤.bAct_ResetPB" TargetProperty="Background" Source="Tags.AllServoResetPB_Z" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group5.bAct_ServoOn" TargetProperty="Actions" Source="Tags.AllServoOnPB" Event="Click" Action="Toggle Tag" Param="" />
+        <Item Target="手動_取放盤.Group5.bAct_ServoOn" TargetProperty="Value" Source="Tags.AllServoOnPB" />
+        <Item Target="手動_取放盤.Group5.bAct_ServoOn" TargetProperty="TextValue" Source="Tags.AllServoOnPB" />
+        <Item Target="手動_取放盤.Group5.bAct_ServoOn" TargetProperty="Background" Source="Tags.AllServoOnPB" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group5.bAct_SpeedLowHigh" TargetProperty="Actions" Source="Tags.ServoJogSpeedFastPB" Event="Click" Action="Toggle Tag" Param="" />
+        <Item Target="手動_取放盤.Group5.bAct_SpeedLowHigh" TargetProperty="Value" Source="Tags.ServoJogSpeedFastPB" />
+        <Item Target="手動_取放盤.Group5.bAct_SpeedLowHigh" TargetProperty="TextValue" Source="Tags.ServoJogSpeedFastPB" />
+        <Item Target="手動_取放盤.Group5.bAct_SpeedLowHigh" TargetProperty="Background" Source="Tags.ServoJogSpeedFastPB" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bPG_Seat" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bPG_Seat" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item Target="手動_取放盤.Group4.bAct_AxisZHomePB" TargetProperty="Value" Source="Tags.ServoHomePB_AxisZ" />
+        <Item Target="手動_取放盤.Group4.bAct_AxisZHomePB" TargetProperty="TextValue" Source="Tags.ServoJogSpeedFastPB" />
+        <Item Target="手動_取放盤.Group4.bAct_AxisZHomePB" TargetProperty="Background" Source="Tags.ServoHomePB_AxisZ" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group4.bAct_AxisZUp" TargetProperty="Actions" Source="Tags.ServoJogForwardPB_AxisZ" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group4.bAct_AxisZUp" TargetProperty="Actions" Source="Tags.ServoJogForwardPB_AxisZ" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group4.bAct_AxisZUp" TargetProperty="Actions" Source="Tags.ServoJogForwardPB_AxisZ" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放盤.Group4.bAct_AxisZUp" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="手動_取放盤.Group4.bAct_AxisZUp" TargetProperty="Background" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group4.bAct_AxisZDown" TargetProperty="Actions" Source="Tags.ServoJogBackwardsPB_AxisZ" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group4.bAct_AxisZDown" TargetProperty="Actions" Source="Tags.ServoJogBackwardsPB_AxisZ" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group4.bAct_AxisZDown" TargetProperty="Actions" Source="Tags.ServoJogBackwardsPB_AxisZ" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放盤.Group4.bAct_AxisZDown" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="手動_取放盤.Group4.bAct_AxisZDown" TargetProperty="Background" Source="Tags.ServoJogBackwardsPB_AxisZ" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bAct_UnloadTrayPB" TargetProperty="Actions" Source="Tags.UnloadTrayStartPB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bAct_UnloadTrayPB" TargetProperty="Actions" Source="Tags.UnloadTrayStartPB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bAct_UnloadTrayPB" TargetProperty="Actions" Source="Tags.UnloadTrayStartPB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放盤.bAct_UnloadTrayPB" TargetProperty="Value" Source="Tags.UnloadTrayStartPB" />
+        <Item Target="手動_取放盤.bAct_UnloadTrayPB" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="手動_取放盤.bAct_UnloadTrayPB" TargetProperty="Background" Source="Tags.UnloadTrayStartPB" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bAct_LoadTrayPB" TargetProperty="Actions" Source="Tags.LoadTrayStartPB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bAct_LoadTrayPB" TargetProperty="Actions" Source="Tags.LoadTrayStartPB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bAct_LoadTrayPB" TargetProperty="Actions" Source="Tags.LoadTrayStartPB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放盤.bAct_LoadTrayPB" TargetProperty="Value" Source="Tags.LoadTrayStartPB" />
+        <Item Target="手動_取放盤.bAct_LoadTrayPB" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="手動_取放盤.bAct_LoadTrayPB" TargetProperty="Background" Source="Tags.LoadTrayStartPB" />
+        <Item Target="手動_取放盤.bAct_GoFixMovePB" TargetProperty="Value" Source="Tags.HMI_GoFixMovePosPB_AxisZ" />
+        <Item Target="手動_取放盤.bAct_GoFixMovePB" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="手動_取放盤.bAct_GoFixMovePB" TargetProperty="Background" Source="Tags.HMI_GoFixMovePosPB_AxisZ" />
+        <Item Target="手動_取放盤.bAct_GoTakeTrayPosPB" TargetProperty="Value" Source="Tags.HMI_GoTakeTrayPosPB_AxisZ" />
+        <Item Target="手動_取放盤.bAct_GoTakeTrayPosPB" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="手動_取放盤.bAct_GoTakeTrayPosPB" TargetProperty="Background" Source="Tags.HMI_GoTakeTrayPosPB_AxisZ" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bAct_ORGPosPB" TargetProperty="Actions" Source="Tags.HMI_GoOrgPosPB_AxisZ" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bAct_ORGPosPB" TargetProperty="Actions" Source="Tags.HMI_GoOrgPosPB_AxisZ" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bAct_ORGPosPB" TargetProperty="Actions" Source="Tags.HMI_GoOrgPosPB_AxisZ" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放盤.bAct_ORGPosPB" TargetProperty="Value" Source="Tags.HMI_GoOrgPosPB_AxisZ" />
+        <Item Target="手動_取放盤.bAct_ORGPosPB" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="手動_取放盤.bAct_ORGPosPB" TargetProperty="Background" Source="Tags.HMI_GoOrgPosPB_AxisZ" />
+        <Item Target="手動_取放盤.AnalogNumeric6" TargetProperty="Value" Source="Tags.ShowFixMovePos_AxisZ" />
+        <Item Target="手動_取放盤.AnalogNumeric5" TargetProperty="Value" Source="Tags.ShowTakeTrayPos_AxisZ" />
+        <Item Target="手動_取放盤.AnalogNumeric4" TargetProperty="Value" Source="Tags.ShowORGPos_AxisZ" />
+        <Item Target="手動_取放盤.AnalogNumeric3" TargetProperty="Value" Source="Tags.ServoJogSpeed_SLOW" />
+        <Item Target="手動_取放盤.AnalogNumeric2" TargetProperty="Value" Source="Tags.ServoJogSpeed_FAST" />
+        <Item Target="手動_取放盤.numCurrentAddressZ" TargetProperty="Value" Source="Tags.CurrentPostion_AxisZ" />
+        <Item Target="手動_取放盤.AnalogNumeric" TargetProperty="Value" Source="Tags.ShowServoMoveAbsSpeed_Auto_Z" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bPG_Main" TargetProperty="Actions" Source="主頁" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bPG_Tray" TargetProperty="Actions" Source="手動_取放盤" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bPG_Seat" TargetProperty="Actions" Source="手動_取放料" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bAct_GoFixMovePB" TargetProperty="Actions" Source="Z軸位置移動確認頁" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bAct_GoTakeTrayPosPB" TargetProperty="Actions" Source="Z軸位置移動確認頁" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>手動_取放盤</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>35</ObjectsCount>
+          <ScreenName>手動_取放盤</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bPG_Main" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bPG_Main" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bPG_Main" TargetProperty="Actions" Source="Tags.CopyFileDataPB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bPG_Main" TargetProperty="Actions" Source="Tags.CopyFileDataPB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bPG_Main" TargetProperty="Actions" Source="Tags.CopyFileDataPB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bPG_Tray" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bPG_Tray" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group.bAct_PickTrayOut2" TargetProperty="Actions" Source="Tags.PickTrayOut2_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group.bAct_PickTrayOut2" TargetProperty="Actions" Source="Tags.PickTrayOut2_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group.bAct_PickTrayOut2" TargetProperty="Actions" Source="Tags.PickTrayOut2_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group.bAct_PickTrayBack2" TargetProperty="Actions" Source="Tags.PickTrayBack2_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group.bAct_PickTrayBack2" TargetProperty="Actions" Source="Tags.PickTrayBack2_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group.bAct_PickTrayBack2" TargetProperty="Actions" Source="Tags.PickTrayBack2_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group.bAct_PickTrayOut1" TargetProperty="Actions" Source="Tags.PickTrayOut1_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group.bAct_PickTrayOut1" TargetProperty="Actions" Source="Tags.PickTrayOut1_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group.bAct_PickTrayOut1" TargetProperty="Actions" Source="Tags.PickTrayOut1_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group.bAct_PickTrayBack1" TargetProperty="Actions" Source="Tags.PickTrayBack1_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group.bAct_PickTrayBack1" TargetProperty="Actions" Source="Tags.PickTrayBack1_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group.bAct_PickTrayBack1" TargetProperty="Actions" Source="Tags.PickTrayBack1_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group1.bAct_MoveOut" TargetProperty="Actions" Source="Tags.MoveOut_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group1.bAct_MoveOut" TargetProperty="Actions" Source="Tags.MoveOut_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group1.bAct_MoveOut" TargetProperty="Actions" Source="Tags.MoveOut_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group1.bAct_MoveBack" TargetProperty="Actions" Source="Tags.MoveBack_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group1.bAct_MoveBack" TargetProperty="Actions" Source="Tags.MoveBack_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group1.bAct_MoveBack" TargetProperty="Actions" Source="Tags.MoveBack_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group3.bAct_PickTrayClipBack" TargetProperty="Actions" Source="Tags.PickTrayClipBack_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group3.bAct_PickTrayClipBack" TargetProperty="Actions" Source="Tags.PickTrayClipBack_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group3.bAct_PickTrayClipBack" TargetProperty="Actions" Source="Tags.PickTrayClipBack_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group3.bAct_PickTrayClipOut" TargetProperty="Actions" Source="Tags.PickTrayClipOut_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group3.bAct_PickTrayClipOut" TargetProperty="Actions" Source="Tags.PickTrayClipOut_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group3.bAct_PickTrayClipOut" TargetProperty="Actions" Source="Tags.PickTrayClipOut_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group2.bAct_TakeTray" TargetProperty="Actions" Source="Tags.TakeTray_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group2.bAct_TakeTray" TargetProperty="Actions" Source="Tags.TakeTray_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group2.bAct_TakeTray" TargetProperty="Actions" Source="Tags.TakeTray_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group2.bAct_VerticalBar" TargetProperty="Actions" Source="Tags.VerticalBar_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group2.bAct_VerticalBar" TargetProperty="Actions" Source="Tags.VerticalBar_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group2.bAct_VerticalBar" TargetProperty="Actions" Source="Tags.VerticalBar_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group2.bAct_HorizontalBar" TargetProperty="Actions" Source="Tags.HorizontalBar_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group2.bAct_HorizontalBar" TargetProperty="Actions" Source="Tags.HorizontalBar_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group2.bAct_HorizontalBar" TargetProperty="Actions" Source="Tags.HorizontalBar_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bAct_ResetPB" TargetProperty="Actions" Source="Tags.AllServoResetPB_Z" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bAct_ResetPB" TargetProperty="Actions" Source="Tags.AllServoResetPB_Z" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bAct_ResetPB" TargetProperty="Actions" Source="Tags.AllServoResetPB_Z" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group5.bAct_ServoOn" TargetProperty="Actions" Source="Tags.AllServoOnPB" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group5.bAct_SpeedLowHigh" TargetProperty="Actions" Source="Tags.ServoJogSpeedFastPB" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bPG_Seat" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bPG_Seat" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group4.bAct_AxisZUp" TargetProperty="Actions" Source="Tags.ServoJogForwardPB_AxisZ" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group4.bAct_AxisZUp" TargetProperty="Actions" Source="Tags.ServoJogForwardPB_AxisZ" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group4.bAct_AxisZUp" TargetProperty="Actions" Source="Tags.ServoJogForwardPB_AxisZ" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group4.bAct_AxisZDown" TargetProperty="Actions" Source="Tags.ServoJogBackwardsPB_AxisZ" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group4.bAct_AxisZDown" TargetProperty="Actions" Source="Tags.ServoJogBackwardsPB_AxisZ" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.Group4.bAct_AxisZDown" TargetProperty="Actions" Source="Tags.ServoJogBackwardsPB_AxisZ" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bAct_UnloadTrayPB" TargetProperty="Actions" Source="Tags.UnloadTrayStartPB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bAct_UnloadTrayPB" TargetProperty="Actions" Source="Tags.UnloadTrayStartPB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bAct_UnloadTrayPB" TargetProperty="Actions" Source="Tags.UnloadTrayStartPB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bAct_LoadTrayPB" TargetProperty="Actions" Source="Tags.LoadTrayStartPB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bAct_LoadTrayPB" TargetProperty="Actions" Source="Tags.LoadTrayStartPB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bAct_LoadTrayPB" TargetProperty="Actions" Source="Tags.LoadTrayStartPB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bAct_ORGPosPB" TargetProperty="Actions" Source="Tags.HMI_GoOrgPosPB_AxisZ" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bAct_ORGPosPB" TargetProperty="Actions" Source="Tags.HMI_GoOrgPosPB_AxisZ" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放盤.bAct_ORGPosPB" TargetProperty="Actions" Source="Tags.HMI_GoOrgPosPB_AxisZ" Event="MouseLeave" Action="Reset Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

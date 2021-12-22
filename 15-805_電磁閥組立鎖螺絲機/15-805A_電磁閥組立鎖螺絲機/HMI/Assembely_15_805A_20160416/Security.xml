@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Security SchemaVersion="2.30.24.0">
+  <SecurityGroups>
+    <Group ID="Group_01" Name="Administrators" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" />
+    <Group ID="Group_02" Name="Operators" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" />
+  </SecurityGroups>
+  <SecurityUsers>
+    <User ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+      <Username>Administrator</Username>
+      <PasswordHash>OoMDty4A6yBaM9z7Qo7vCnMLZCU=</PasswordHash>
+      <Description></Description>
+      <Groups>
+        <Group>Group_01</Group>
+      </Groups>
+      <IsErasable>False</IsErasable>
+    </User>
+    <User ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+      <Username>risepower</Username>
+      <PasswordHash>weCzZWezKC8Xk9BCQglc0rrW+Tk=</PasswordHash>
+      <Description>公司用</Description>
+      <Groups>
+        <Group>Group_01</Group>
+      </Groups>
+      <IsErasable>False</IsErasable>
+    </User>
+    <User ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+      <Username>User1</Username>
+      <PasswordHash>EUCUZK1OzsfIP4j/EPYGaNfGaQg=</PasswordHash>
+      <Description>客戶用</Description>
+      <Groups>
+        <Group>Group_02</Group>
+      </Groups>
+      <IsErasable>False</IsErasable>
+    </User>
+  </SecurityUsers>
+</Security>

@@ -1,0 +1,553 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.30.24.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items>
+        <Item xsi:type="AlarmViewerItem" Target="主頁.AlarmViewer" ServerID="" ServerPort="0" MaximumAlarmEvents="100" />
+      </Items>
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="主頁.bPG_Tray" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.bPG_Seat" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.bPG_Main" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.bAct_ResetPB_Main" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.bRunPB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.AlarmViewer" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Button15" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.bAct_DataBackupPB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.bAct_DataRestorePB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Group.numIndexX" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Group.numIndexY" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Button9" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.AnalogNumeric4" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.AnalogNumeric9" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Tray" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Tray" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Tray" TargetProperty="Actions" Source="Tags.ManchineRunStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Seat" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Seat" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Seat" TargetProperty="Actions" Source="Tags.ManchineRunStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Main" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Main" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bAct_ResetPB_Main" TargetProperty="Actions" Source="Tags.ResetPB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bAct_ResetPB_Main" TargetProperty="Actions" Source="Tags.ResetPB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bAct_ResetPB_Main" TargetProperty="Actions" Source="Tags.ResetPB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item Target="主頁.bAct_ResetPB_Main" TargetProperty="Value" Source="Tags.ResetPB" />
+        <Item Target="主頁.bAct_ResetPB_Main" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="主頁.bAct_ResetPB_Main" TargetProperty="Background" Source="Tags.ResetPB" />
+        <Item xsi:type="ActionItem" Target="主頁.bRunPB" TargetProperty="Actions" Source="Tags.ManchineRunStatus" Event="Click" Action="Toggle Tag" Param="" />
+        <Item Target="主頁.bRunPB" TargetProperty="Value" Source="Tags.ManchineRunStatus" />
+        <Item Target="主頁.bRunPB" TargetProperty="TextValue" Source="Tags.ManchineRunStatus" />
+        <Item Target="主頁.bRunPB" TargetProperty="Background" Source="Tags.ManchineRunStatus" />
+        <Item xsi:type="ActionItem" Target="主頁.bAct_DataBackupPB" TargetProperty="Actions" Source="Tags.DataBackupPB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bAct_DataBackupPB" TargetProperty="Actions" Source="Tags.DataBackupPB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bAct_DataBackupPB" TargetProperty="Actions" Source="Tags.DataBackupPB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item Target="主頁.bAct_DataBackupPB" TargetProperty="Value" Source="Tags.DataBackupPB" />
+        <Item Target="主頁.bAct_DataBackupPB" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="主頁.bAct_DataBackupPB" TargetProperty="Background" Source="Tags.DataBackupPB" />
+        <Item Target="主頁.bAct_DataRestorePB" TargetProperty="Value" Source="Tags.DataRestorePB" />
+        <Item Target="主頁.bAct_DataRestorePB" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="主頁.bAct_DataRestorePB" TargetProperty="Background" Source="Tags.DataRestorePB" />
+        <Item Target="主頁.Group.numIndexX" TargetProperty="Value" Source="Tags.PickPOS_IndexX" />
+        <Item Target="主頁.Group.numIndexY" TargetProperty="Value" Source="Tags.PickPOS_IndexY" />
+        <Item xsi:type="ActionItem" Target="主頁.Button9" TargetProperty="Actions" Source="Tags.HMIPB_BZStop1" Event="Click" Action="Toggle Tag" Param="" />
+        <Item Target="主頁.Button9" TargetProperty="Value" Source="Tags.HMIPB_BZStop1" />
+        <Item Target="主頁.Button9" TargetProperty="TextValue" Source="Tags.HMIPB_BZStop1" />
+        <Item Target="主頁.Button9" TargetProperty="Background" Source="Tags.HMIPB_BZStop1" />
+        <Item Target="主頁.AnalogNumeric4" TargetProperty="Value" Source="Tags.HMI_BZStopTime1" />
+        <Item Target="主頁.AnalogNumeric9" TargetProperty="Value" Source="Tags.HMI_BZRestartTime1" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Tray" TargetProperty="Actions" Source="手動_取放盤" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Seat" TargetProperty="Actions" Source="手動_取放料" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Main" TargetProperty="Actions" Source="主頁" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>主頁</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>15</ObjectsCount>
+          <ScreenName>主頁</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress000X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress000X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress000Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress000Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress001X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress001X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress001Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress001Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress002X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress002X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress002Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress002Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress003X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress003X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress003Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress003Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress004X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress004X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress004Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress004Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress005X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress005X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress005Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress005Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress006X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress007X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress006Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress007Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress008X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress008X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress008Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress008Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress009X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress009X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress009Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress009Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress100X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress100X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress100Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress100Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress101X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress101X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress101Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress101Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress102X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress102X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress102Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress102Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress103X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress103X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress103Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress103Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress104X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress104X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress104Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress104Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress105X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress105X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress105Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress105Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress106X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress107X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress106Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress107Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress108X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress108X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress108Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress108Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress109X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress109X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress109Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress109Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress200X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress200X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress200Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress200Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress201X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress201X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress201Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress201Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress202X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress202X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress202Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress202Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress203X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress203X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress203Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress203Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress204X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress204X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress204Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress204Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress205X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress205X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress205Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress205Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress206X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress207X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress206Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress207Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress208X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress208X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress208Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress208Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress209X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress209X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress209Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress209Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress300X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress300X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress300Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress300Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress301X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress301X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress301Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress301Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress302X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress302X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress302Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress302Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress303X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress303X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress303Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress303Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress304X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress304X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress304Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress304Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress305X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress305X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress305Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress305Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress306X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress307X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress306Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress307Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress308X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress308X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress308Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress308Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress309X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress309X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress309Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress309Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress400X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress400X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress400Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress400Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress401X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress401X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress401Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress401Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress402X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress402X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress402Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress402Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress403X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress403X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress403Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress403Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress404X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress404X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress404Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress404Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress405X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress405X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress405Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress405Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress406X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress407X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress406Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress407Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress408X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress408X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress408Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress408Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress409X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress409X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress409Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress409Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress500X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress500X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress500Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress500Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress501X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress501X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress501Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress501Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress502X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress502X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress502Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress502Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress503X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress503X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress503Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress503Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress504X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress504X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress504Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress504Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress505X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress505X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress505Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress505Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress506X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress507X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress506Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress507Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress508X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress508X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress508Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress508Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress509X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress509X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress509Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress509Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress600X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress600X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress600Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress600Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress601X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress601X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress601Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress601Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress602X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress602X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress602Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress602Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress603X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress603X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress603Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress603Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress604X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress604X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress604Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress604Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress605X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress605X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress605Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress605Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress606X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress607X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress606Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress607Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress608X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress608X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress608Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress608Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress609X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress609X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress609Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress609Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress700X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress700X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress700Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress700Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress701X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress701X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress701Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress701Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress702X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress702X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress702Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress702Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress703X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress703X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress703Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress703Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress704X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress704X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress704Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress704Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress705X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress705X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress705Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress705Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress706X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress707X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress706Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress707Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress708X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress708X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress708Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress708Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress709X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress709X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress709Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress709Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress800X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress800X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress800Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress800Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress801X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress801X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress801Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress801Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress802X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress802X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress802Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress802Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress803X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress803X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress803Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress803Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress804X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress804X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress804Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress804Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress805X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress805X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress805Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress805Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress806X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress807X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress806Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress807Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress808X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress808X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress808Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress808Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress809X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress809X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress809Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress809Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress900X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress900X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress900Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress900Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress901X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress901X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress901Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress901Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress902X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress902X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress902Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress902Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress903X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress903X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress903Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress903Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress904X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress904X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress904Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress904Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress905X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress905X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress905Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress905Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress906X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress907X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress906Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress907Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress908X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress908X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress908Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress908Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress909X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress909X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress909Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress909Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress006X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress007X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress006Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress007Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress106X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress107X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress106Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress107Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress206X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress207X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress206Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress207Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress306X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress307X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress306Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress307Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress406X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress407X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress406Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress407Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress506X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress507X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress506Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress507Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress606X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress607X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress606Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress607Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress706X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress707X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress706Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress707Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress806X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress807X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress806Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress807Y_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress906X" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress907X_R" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress906Y" />
+        <Item Target="主頁.Script.cs" Source="Tags.PickPOSAddress907Y_R" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Tray" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Tray" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Tray" TargetProperty="Actions" Source="Tags.ManchineRunStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Seat" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Seat" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Seat" TargetProperty="Actions" Source="Tags.ManchineRunStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Main" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Main" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bAct_ResetPB_Main" TargetProperty="Actions" Source="Tags.ResetPB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bAct_ResetPB_Main" TargetProperty="Actions" Source="Tags.ResetPB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bAct_ResetPB_Main" TargetProperty="Actions" Source="Tags.ResetPB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bRunPB" TargetProperty="Actions" Source="Tags.ManchineRunStatus" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bAct_DataBackupPB" TargetProperty="Actions" Source="Tags.DataBackupPB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bAct_DataBackupPB" TargetProperty="Actions" Source="Tags.DataBackupPB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bAct_DataBackupPB" TargetProperty="Actions" Source="Tags.DataBackupPB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.Button9" TargetProperty="Actions" Source="Tags.HMIPB_BZStop1" Event="Click" Action="Toggle Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

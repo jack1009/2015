@@ -1,0 +1,1540 @@
+﻿<?xml version="1.0" encoding="utf-8"?><NeoItem d1p1:Serializer="Neo.ApplicationFramework.Common.Serialization.ObjectSerializer" xmlns:d1p1="urn:Neo.ApplicationFramework.Serializer">
+  <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmServer, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" d1p1:Site.Name="AlarmServer" ActionName="" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" MaximumAlarmEventsToDistribute="100" ServerPort="1000" MaxNumberOfAlarms="1000">
+    <AlarmGroups>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmGroup, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name="Default" Text="Default" ActiveBackColor="191, 19, 41" InactiveBackColor="241, 204, 71" AcknowledgeBackColor="67, 127, 70" NormalBackColor="Window" ActiveForeColor="Black" InactiveForeColor="Black" AcknowledgeForeColor="Black" NormalForeColor="Black" EnableDistribution="False" d1p1:Site.Name="Default" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+        <AlarmItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem0" Name="Default_AlarmItem0" AcknowledgeRequired="False" EnableDistribution="False" StaticText="急停押扣中" DefaultText="急停押扣中" d1p1:Site.Name="Default_AlarmItem0" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="急停押扣中" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.EStopPB_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem1" Name="Default_AlarmItem1" AcknowledgeRequired="False" EnableDistribution="False" StaticText="總氣源壓力異常" DefaultText="總氣源壓力異常" d1p1:Site.Name="Default_AlarmItem1" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="總氣源壓力異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.AirSource_SNR_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem2" Name="Default_AlarmItem2" AcknowledgeRequired="False" EnableDistribution="False" StaticText="接料盤移位歸異常" DefaultText="接料盤移位歸異常" d1p1:Site.Name="Default_AlarmItem2" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="接料盤移位歸異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.MoveBack_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem3" Name="Default_AlarmItem3" AcknowledgeRequired="False" EnableDistribution="False" StaticText="接料盤移位出異常" DefaultText="接料盤移位出異常" d1p1:Site.Name="Default_AlarmItem3" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="接料盤移位出異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.MoveOut_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem4" Name="Default_AlarmItem4" AcknowledgeRequired="False" EnableDistribution="False" StaticText="上下歸異常" DefaultText="上下歸異常" d1p1:Site.Name="Default_AlarmItem4" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="上下歸異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.UpDownBack_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem5" Name="Default_AlarmItem5" AcknowledgeRequired="False" EnableDistribution="False" StaticText="上下出異常" DefaultText="上下出異常" d1p1:Site.Name="Default_AlarmItem5" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="上下出異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.UpDownOut_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem6" Name="Default_AlarmItem6" AcknowledgeRequired="False" EnableDistribution="False" StaticText="夾持歸異常" DefaultText="夾持歸異常" d1p1:Site.Name="Default_AlarmItem6" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="夾持歸異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.ClipBack_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem7" Name="Default_AlarmItem7" AcknowledgeRequired="False" EnableDistribution="False" StaticText="夾持出異常" DefaultText="夾持出異常" d1p1:Site.Name="Default_AlarmItem7" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="夾持出異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.ClipOut_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem8" Name="Default_AlarmItem8" AcknowledgeRequired="False" EnableDistribution="False" StaticText="轉向歸異常" DefaultText="轉向歸異常" d1p1:Site.Name="Default_AlarmItem8" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="轉向歸異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.TurnBack_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem9" Name="Default_AlarmItem9" AcknowledgeRequired="False" EnableDistribution="False" StaticText="轉向出異常" DefaultText="轉向出異常" d1p1:Site.Name="Default_AlarmItem9" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="轉向出異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.TurnOut_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem10" Name="Default_AlarmItem10" AcknowledgeRequired="False" EnableDistribution="False" StaticText="定位歸異常" DefaultText="定位歸異常" d1p1:Site.Name="Default_AlarmItem10" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="定位歸異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.FixBack_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem11" Name="Default_AlarmItem11" AcknowledgeRequired="False" EnableDistribution="False" StaticText="定位出異常" DefaultText="定位出異常" d1p1:Site.Name="Default_AlarmItem11" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="定位出異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.FixOut_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem12" Name="Default_AlarmItem12" AcknowledgeRequired="False" EnableDistribution="False" StaticText="檢查歸異常" DefaultText="檢查歸異常" d1p1:Site.Name="Default_AlarmItem12" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="檢查歸異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.CheckBack_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem13" Name="Default_AlarmItem13" AcknowledgeRequired="False" EnableDistribution="False" StaticText="檢查出異常" DefaultText="檢查出異常" d1p1:Site.Name="Default_AlarmItem13" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="檢查出異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.CheckOut_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem14" Name="Default_AlarmItem14" AcknowledgeRequired="False" EnableDistribution="False" StaticText="O令檢查異常" DefaultText="O令檢查異常" d1p1:Site.Name="Default_AlarmItem14" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="O令檢查異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.CheckOring1_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem15" Name="Default_AlarmItem15" AcknowledgeRequired="False" EnableDistribution="False" StaticText="止漏環檢查異常" DefaultText="止漏環檢查異常" d1p1:Site.Name="Default_AlarmItem15" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="止漏環檢查異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.CheckOring2_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem16" Name="Default_AlarmItem16" AcknowledgeRequired="False" EnableDistribution="False" StaticText="檢查連續三次異常,請檢查中座方向是否正確" DefaultText="檢查連續三次異常,請檢查中座方向是否正確" d1p1:Site.Name="Default_AlarmItem16" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="檢查連續三次異常,請檢查中座方向是否正確" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.CheckPiston_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem17" Name="Default_AlarmItem17" AcknowledgeRequired="False" EnableDistribution="False" StaticText="料盤架無料盤" DefaultText="料盤架無料盤" d1p1:Site.Name="Default_AlarmItem17" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="料盤架無料盤" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.CheckTray_Up_SNR_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem18" Name="Default_AlarmItem18" AcknowledgeRequired="False" EnableDistribution="False" StaticText="空料盤已滿" DefaultText="空料盤已滿" d1p1:Site.Name="Default_AlarmItem18" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="空料盤已滿" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.CheckTray_Down_SNR_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem19" Name="Default_AlarmItem19" AcknowledgeRequired="False" EnableDistribution="False" StaticText="無中座" DefaultText="無中座" d1p1:Site.Name="Default_AlarmItem19" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="無中座" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.CheckObject_SNR_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem20" Name="Default_AlarmItem20" AcknowledgeRequired="False" EnableDistribution="False" StaticText="Y軸前極限異常" DefaultText="Y軸前極限異常" d1p1:Site.Name="Default_AlarmItem20" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="Y軸前極限異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.AxisY_Positive_Limit_SNR_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem21" Name="Default_AlarmItem21" AcknowledgeRequired="False" EnableDistribution="False" StaticText="Y軸後極限異常" DefaultText="Y軸後極限異常" d1p1:Site.Name="Default_AlarmItem21" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="Y軸後極限異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.AxisY_Negative_Limit_SNR_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem22" Name="Default_AlarmItem22" AcknowledgeRequired="False" EnableDistribution="False" StaticText="X軸前極限異常" DefaultText="X軸前極限異常" d1p1:Site.Name="Default_AlarmItem22" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="X軸前極限異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.AxisX_Positive_Limit_SNR_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem23" Name="Default_AlarmItem23" AcknowledgeRequired="False" EnableDistribution="False" StaticText="X軸後極限異常" DefaultText="X軸後極限異常" d1p1:Site.Name="Default_AlarmItem23" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="X軸後極限異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.AxisX_Negative_Limit_SNR_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem24" Name="Default_AlarmItem24" AcknowledgeRequired="False" EnableDistribution="False" StaticText="Z軸上極限異常" DefaultText="Z軸上極限異常" d1p1:Site.Name="Default_AlarmItem24" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="Z軸上極限異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.AxisZ_Positive_Limit_SNR_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem25" Name="Default_AlarmItem25" AcknowledgeRequired="False" EnableDistribution="False" StaticText="Z軸下極限異常" DefaultText="Z軸下極限異常" d1p1:Site.Name="Default_AlarmItem25" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="Z軸下極限異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.AxisZ_Negative_Limit_SNR_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem26" Name="Default_AlarmItem26" AcknowledgeRequired="False" EnableDistribution="False" StaticText="空料盤門開啟" DefaultText="空料盤門開啟" d1p1:Site.Name="Default_AlarmItem26" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="空料盤門開啟" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.CheckGate_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem27" Name="Default_AlarmItem27" AcknowledgeRequired="False" EnableDistribution="False" StaticText="取料盤歸1異常" DefaultText="取料盤歸1異常" d1p1:Site.Name="Default_AlarmItem27" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="取料盤歸1異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.PickTrayBack1_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem28" Name="Default_AlarmItem28" AcknowledgeRequired="False" EnableDistribution="False" StaticText="取料盤出1異常" DefaultText="取料盤出1異常" d1p1:Site.Name="Default_AlarmItem28" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="取料盤出1異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.PickTrayOut1_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem29" Name="Default_AlarmItem29" AcknowledgeRequired="False" EnableDistribution="False" StaticText="取料盤歸2異常" DefaultText="取料盤歸2異常" d1p1:Site.Name="Default_AlarmItem29" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="取料盤歸2異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.PickTrayBack2_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem30" Name="Default_AlarmItem30" AcknowledgeRequired="False" EnableDistribution="False" StaticText="取料盤出2異常" DefaultText="取料盤出2異常" d1p1:Site.Name="Default_AlarmItem30" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="取料盤出2異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.PickTrayOut2_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem31" Name="Default_AlarmItem31" AcknowledgeRequired="False" EnableDistribution="False" StaticText="料盤夾持歸1異常" DefaultText="料盤夾持歸1異常" d1p1:Site.Name="Default_AlarmItem31" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="料盤夾持歸1異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.PickTrayClipBack1_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem32" Name="Default_AlarmItem32" AcknowledgeRequired="False" EnableDistribution="False" StaticText="料盤夾持出1異常" DefaultText="料盤夾持出1異常" d1p1:Site.Name="Default_AlarmItem32" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="料盤夾持出1異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.PickTrayClipOut1_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem33" Name="Default_AlarmItem33" AcknowledgeRequired="False" EnableDistribution="False" StaticText="料盤夾持歸2異常" DefaultText="料盤夾持歸2異常" d1p1:Site.Name="Default_AlarmItem33" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="料盤夾持歸2異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.PickTrayClipBack2_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem34" Name="Default_AlarmItem34" AcknowledgeRequired="False" EnableDistribution="False" StaticText="料盤夾持出2異常" DefaultText="料盤夾持出2異常" d1p1:Site.Name="Default_AlarmItem34" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="料盤夾持出2異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.PickTrayClipOut2_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem35" Name="Default_AlarmItem35" AcknowledgeRequired="False" EnableDistribution="False" StaticText="料盤夾持歸3異常" DefaultText="料盤夾持歸3異常" d1p1:Site.Name="Default_AlarmItem35" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="料盤夾持歸3異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.PickTrayClipBack3_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem36" Name="Default_AlarmItem36" AcknowledgeRequired="False" EnableDistribution="False" StaticText="料盤夾持出3異常" DefaultText="料盤夾持出3異常" d1p1:Site.Name="Default_AlarmItem36" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="料盤夾持出3異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.PickTrayClipOut3_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem37" Name="Default_AlarmItem37" AcknowledgeRequired="False" EnableDistribution="False" StaticText="料盤夾持歸4異常" DefaultText="料盤夾持歸4異常" d1p1:Site.Name="Default_AlarmItem37" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="料盤夾持歸4異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.PickTrayClipBack4_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem38" Name="Default_AlarmItem38" AcknowledgeRequired="False" EnableDistribution="False" StaticText="料盤夾持出4異常" DefaultText="料盤夾持出4異常" d1p1:Site.Name="Default_AlarmItem38" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="料盤夾持出4異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.PickTrayClipOut4_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem39" Name="Default_AlarmItem39" AcknowledgeRequired="False" EnableDistribution="False" StaticText="接料盤歸1異常" DefaultText="接料盤歸1異常" d1p1:Site.Name="Default_AlarmItem39" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="接料盤歸1異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.TakeTrayBack1_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem40" Name="Default_AlarmItem40" AcknowledgeRequired="False" EnableDistribution="False" StaticText="接料盤出1異常" DefaultText="接料盤出1異常" d1p1:Site.Name="Default_AlarmItem40" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="接料盤出1異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.TakeTrayOut1_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem41" Name="Default_AlarmItem41" AcknowledgeRequired="False" EnableDistribution="False" StaticText="接料盤歸2異常" DefaultText="接料盤歸2異常" d1p1:Site.Name="Default_AlarmItem41" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="接料盤歸2異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.TakeTrayBack2_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem42" Name="Default_AlarmItem42" AcknowledgeRequired="False" EnableDistribution="False" StaticText="接料盤出2異常" DefaultText="接料盤出2異常" d1p1:Site.Name="Default_AlarmItem42" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="接料盤出2異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.TakeTrayOut2_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem43" Name="Default_AlarmItem43" AcknowledgeRequired="False" EnableDistribution="False" StaticText="縱向擋盤歸1異常" DefaultText="縱向擋盤歸1異常" d1p1:Site.Name="Default_AlarmItem43" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="縱向擋盤歸1異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.VerticalBarBack1_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem44" Name="Default_AlarmItem44" AcknowledgeRequired="False" EnableDistribution="False" StaticText="縱向擋盤出1異常" DefaultText="縱向擋盤出1異常" d1p1:Site.Name="Default_AlarmItem44" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="縱向擋盤出1異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.VerticalBarOut1_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem45" Name="Default_AlarmItem45" AcknowledgeRequired="False" EnableDistribution="False" StaticText="縱向擋盤歸2異常" DefaultText="縱向擋盤歸2異常" d1p1:Site.Name="Default_AlarmItem45" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="縱向擋盤歸2異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.VerticalBarBack2_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem46" Name="Default_AlarmItem46" AcknowledgeRequired="False" EnableDistribution="False" StaticText="縱向擋盤出2異常" DefaultText="縱向擋盤出2異常" d1p1:Site.Name="Default_AlarmItem46" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="縱向擋盤出2異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.VerticalBarOut2_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem47" Name="Default_AlarmItem47" AcknowledgeRequired="False" EnableDistribution="False" StaticText="橫向擋盤歸1異常" DefaultText="橫向擋盤歸1異常" d1p1:Site.Name="Default_AlarmItem47" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="橫向擋盤歸1異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.HorizontalBarBack_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem48" Name="Default_AlarmItem48" AcknowledgeRequired="False" EnableDistribution="False" StaticText="橫向擋盤出1異常" DefaultText="橫向擋盤出1異常" d1p1:Site.Name="Default_AlarmItem48" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="橫向擋盤出1異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.HorizontalBarOut_LS_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem49" Name="Default_AlarmItem49" AcknowledgeRequired="False" EnableDistribution="False" StaticText="料盤架無料盤" DefaultText="料盤架無料盤" d1p1:Site.Name="Default_AlarmItem49" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="料盤架無料盤" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.Tray_Full_SNR_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="f8dee054-7a52-484d-96da-cc9a5ba467dd" GroupName="Default" DisplayName="AlarmItem50" Name="Default_AlarmItem50" AcknowledgeRequired="False" EnableDistribution="False" StaticText="接料盤異常" DefaultText="接料盤異常" d1p1:Site.Name="Default_AlarmItem50" ComparerType="RisingEdge" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="90" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Text="接料盤異常" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.TakeTray_SNR_Error" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+        </AlarmItems>
+      </Object>
+    </AlarmGroups>
+  </Object>
+</NeoItem>

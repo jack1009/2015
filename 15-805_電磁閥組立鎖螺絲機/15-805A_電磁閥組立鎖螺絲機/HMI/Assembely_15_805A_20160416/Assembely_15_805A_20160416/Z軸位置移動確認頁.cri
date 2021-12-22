@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.20.2296.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="Z軸位置移動確認頁.bAct_GoFixMovePB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="Z軸位置移動確認頁.bPG_Tray" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="Z軸位置移動確認頁.Text" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="Z軸位置移動確認頁.bAct_GoTakeTrayPosPB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Z軸位置移動確認頁.bAct_GoFixMovePB" TargetProperty="Actions" Source="Tags.HMI_GoFixMovePosPB_AxisZ" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Z軸位置移動確認頁.bAct_GoFixMovePB" TargetProperty="Actions" Source="Tags.HMI_GoFixMovePosPB_AxisZ" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Z軸位置移動確認頁.bAct_GoFixMovePB" TargetProperty="Actions" Source="Tags.HMI_GoFixMovePosPB_AxisZ" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item Target="Z軸位置移動確認頁.bAct_GoFixMovePB" TargetProperty="Value" Source="Tags.HMI_GoFixMovePosPB_AxisZ" />
+        <Item Target="Z軸位置移動確認頁.bAct_GoFixMovePB" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="Z軸位置移動確認頁.bAct_GoFixMovePB" TargetProperty="Background" Source="Tags.HMI_GoFixMovePosPB_AxisZ" />
+        <Item xsi:type="ActionItem" Target="Z軸位置移動確認頁.bPG_Tray" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Z軸位置移動確認頁.bPG_Tray" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Z軸位置移動確認頁.bAct_GoTakeTrayPosPB" TargetProperty="Actions" Source="Tags.HMI_GoTakeTrayPosPB_AxisZ" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Z軸位置移動確認頁.bAct_GoTakeTrayPosPB" TargetProperty="Actions" Source="Tags.HMI_GoTakeTrayPosPB_AxisZ" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Z軸位置移動確認頁.bAct_GoTakeTrayPosPB" TargetProperty="Actions" Source="Tags.HMI_GoTakeTrayPosPB_AxisZ" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item Target="Z軸位置移動確認頁.bAct_GoTakeTrayPosPB" TargetProperty="Value" Source="Tags.HMI_GoTakeTrayPosPB_AxisZ" />
+        <Item Target="Z軸位置移動確認頁.bAct_GoTakeTrayPosPB" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="Z軸位置移動確認頁.bAct_GoTakeTrayPosPB" TargetProperty="Background" Source="Tags.HMI_GoTakeTrayPosPB_AxisZ" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Z軸位置移動確認頁.bPG_Tray" TargetProperty="Actions" Source="手動_取放盤" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>Z軸位置移動確認頁</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Z軸位置移動確認頁.bAct_GoFixMovePB" TargetProperty="Actions" Source="Tags.HMI_GoFixMovePosPB_AxisZ" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Z軸位置移動確認頁.bAct_GoFixMovePB" TargetProperty="Actions" Source="Tags.HMI_GoFixMovePosPB_AxisZ" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Z軸位置移動確認頁.bAct_GoFixMovePB" TargetProperty="Actions" Source="Tags.HMI_GoFixMovePosPB_AxisZ" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Z軸位置移動確認頁.bPG_Tray" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Z軸位置移動確認頁.bPG_Tray" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Z軸位置移動確認頁.bAct_GoTakeTrayPosPB" TargetProperty="Actions" Source="Tags.HMI_GoTakeTrayPosPB_AxisZ" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Z軸位置移動確認頁.bAct_GoTakeTrayPosPB" TargetProperty="Actions" Source="Tags.HMI_GoTakeTrayPosPB_AxisZ" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Z軸位置移動確認頁.bAct_GoTakeTrayPosPB" TargetProperty="Actions" Source="Tags.HMI_GoTakeTrayPosPB_AxisZ" Event="MouseLeave" Action="Reset Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

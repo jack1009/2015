@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.20.2296.0'?>
+<NeoItem d1p1:Serializer="Neo.ApplicationFramework.Common.Serialization.ObjectSerializer" xmlns:d1p1="urn:Neo.ApplicationFramework.Serializer">
+  <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.MultiLanguageServer, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" d1p1:Site.Name="MultipleLanguages" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be">
+    <ResourceItems>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Default" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="主頁" ObjectName="bPG_Main" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="主頁" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="主頁" ObjectName="bPG_Seat" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="取放中座" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bAct_PickTrayBack1" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="取料盤歸1" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="主頁" ObjectName="bPG_Tray" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="取放料盤" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bPG_Seat" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="取放中座" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bPG_Main" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="主頁" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bPG_Tray" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="取放料盤" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bAct_PickTrayOut1" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="取料盤出1" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bAct_PickTrayBack2" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="取料盤歸2" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bAct_PickTrayOut2" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="取料盤出2" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bAct_MoveBack" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="料盤&#xD;&#xA;移位歸" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bAct_MoveOut" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="料盤&#xD;&#xA;移位出" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bAct_VerticalBar" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="縱向&#xD;&#xA;擋盤" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bAct_PickTrayClipBack" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="料盤&#xD;&#xA;夾持歸" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bAct_HorizontalBar" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="橫向&#xD;&#xA;擋盤" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bAct_PickTrayClipOut" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="料盤&#xD;&#xA;夾持出" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="主頁" ObjectName="bPG_TimeSetting" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="警報顯示" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="警報顯示" ObjectName="bPG_TimeSetting" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="警報顯示" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bAct_TakeTray" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="接料盤" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bAct_AxisZUp" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="上升" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bAct_SpeedLowHigh" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="手動&#xD;&#xA;低速" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bAct_AxisZDown" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="下降" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bAct_SpeedLowHigh" PropertyName="Texts[0]" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="手動&#xD;&#xA;低速" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bAct_SpeedLowHigh" PropertyName="Texts[1]" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="手動&#xD;&#xA;高速" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bAct_ServoOn" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Servo&#xD;&#xA;Off" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bAct_ServoOn" PropertyName="Texts[0]" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Servo&#xD;&#xA;Off" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bAct_ServoOn" PropertyName="Texts[1]" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Servo&#xD;&#xA;On" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bAct_AxisZHomePB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="原點&#xD;&#xA;搜尋" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="numCurrentAddressZ" PropertyName="Prefix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="當前位置" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="numCurrentAddressZ" PropertyName="Suffix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="mm" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="AnalogNumeric2" PropertyName="Prefix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="手動高速" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="AnalogNumeric2" PropertyName="Suffix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="mm/s" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="AnalogNumeric3" PropertyName="Prefix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="手動低速" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="AnalogNumeric3" PropertyName="Suffix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="mm/s" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="AnalogNumeric4" PropertyName="Prefix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="工作原點" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="AnalogNumeric4" PropertyName="Suffix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="mm" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bAct_ORGPosPB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="待機位置&#xD;&#xA;GO" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="AnalogNumeric5" PropertyName="Prefix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="接料盤位置" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="AnalogNumeric5" PropertyName="Suffix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="mm" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="AnalogNumeric6" PropertyName="Prefix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="固定位移" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="AnalogNumeric6" PropertyName="Suffix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="mm" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bAct_GoTakeTrayPosPB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="接料盤位置&#xD;&#xA;GO" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bAct_GoFixMovePB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="固定距離&#xD;&#xA;GO" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bAct_LoadTrayPB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="裝載&#xD;&#xA;料盤" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bAct_UnloadTrayPB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="卸除&#xD;&#xA;料盤" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bAct_ResetPB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="RESET" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bPG_Seat" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="取放中座" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bPG_Main" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="主頁" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bPG_Tray" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="取放料盤" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="警報顯示" ObjectName="bPG_Main" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="主頁" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="警報顯示" ObjectName="bPG_Seat" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="取放中座" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="警報顯示" ObjectName="bPG_Tray" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="取放料盤" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="主頁" ObjectName="bAct_ResetPB_Main" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="RESET" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="主頁" ObjectName="bUnloadTrayPB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="卸除&#xD;&#xA;料盤" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="主頁" ObjectName="bAct_CopyDataPB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="資料&#xD;&#xA;保存" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bAct_ClipPB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="取料&#xD;&#xA;夾持" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bAct_UpDownPB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="取料&#xD;&#xA;上下" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bAct_TurnPB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="取料&#xD;&#xA;轉向出" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bAct_AxisYFWPB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Y軸&#xD;&#xA;向前" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bAct_AxisYBWPB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Y軸&#xD;&#xA;向後" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bAct_AxisXYHomePB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="原點&#xD;&#xA;搜尋" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="numCurrentAddressX" PropertyName="Prefix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="當前位置X軸" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="numCurrentAddressX" PropertyName="Suffix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="mm" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="numCurrentAddressY" PropertyName="Prefix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="當前位置Y軸" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="numCurrentAddressY" PropertyName="Suffix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="mm" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="AnalogNumeric2" PropertyName="Prefix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="手動高速" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="AnalogNumeric2" PropertyName="Suffix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="mm/s" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bAct_ResetPB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="RESET" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bAct_GoCheckPosPB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="檢查位置&#xD;&#xA;GO" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bAct_LoadTrayPB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="組立機位置&#xD;&#xA;GO" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bAct_GoRejectPosPB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="NG品位置&#xD;&#xA;GO" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bAct_SpeedLowHigh" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="手動低速" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bAct_SpeedLowHigh" PropertyName="Texts[0]" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="手動低速" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bAct_SpeedLowHigh" PropertyName="Texts[1]" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="手動高速" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bAct_ServoOn" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Servo&#xD;&#xA;Off" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bAct_ServoOn" PropertyName="Texts[0]" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Servo&#xD;&#xA;Off" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bAct_ServoOn" PropertyName="Texts[1]" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Servo&#xD;&#xA;On" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bAct_AxisXBWPB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="X軸&#xD;&#xA;向左" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bAct_AxisXFWPB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="X軸&#xD;&#xA;向右" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bAct_FixPB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="定位" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bAct_CheckPB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="檢查" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="AnalogNumeric7" PropertyName="Prefix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="手動低速" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="AnalogNumeric7" PropertyName="Suffix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="mm/s" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="AnalogNumeric3" PropertyName="Prefix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="檢查位置X軸" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="AnalogNumeric3" PropertyName="Suffix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="mm" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="AnalogNumeric4" PropertyName="Prefix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="檢查位置Y軸" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="AnalogNumeric4" PropertyName="Suffix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="mm" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="AnalogNumeric5" PropertyName="Prefix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="組立機位置X軸" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="AnalogNumeric5" PropertyName="Suffix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="mm" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="AnalogNumeric6" PropertyName="Prefix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="組立機位置Y軸" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="AnalogNumeric6" PropertyName="Suffix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="mm" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="AnalogNumeric8" PropertyName="Prefix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="NG品位置X軸" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="AnalogNumeric8" PropertyName="Suffix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="mm" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="AnalogNumeric9" PropertyName="Prefix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="NG品位置Y軸" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="AnalogNumeric9" PropertyName="Suffix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="mm" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="numAddressX" PropertyName="Prefix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="取料位置X軸" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="numAddressX" PropertyName="Suffix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="mm" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="numAddressY" PropertyName="Prefix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="取料位置Y軸" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="numAddressY" PropertyName="Suffix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="mm" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="numIndexX" PropertyName="Prefix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="X軸位置索引值" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="numIndexX" PropertyName="Suffix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="numIndexY" PropertyName="Prefix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Y軸位置索引值" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="numIndexY" PropertyName="Suffix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bAct_GoPickPosPB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="取料位置&#xD;&#xA;GO" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="AnalogNumeric" PropertyName="Prefix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="自動速度" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="AnalogNumeric" PropertyName="Suffix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="mm/s" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bSet_PosSetPB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="取料位置&#xD;&#xA;統合設定" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="AnalogNumeric1" PropertyName="Prefix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="X軸偏移距離" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="AnalogNumeric1" PropertyName="Suffix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="mm" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="AnalogNumeric10" PropertyName="Prefix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Y軸偏移距離" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="AnalogNumeric10" PropertyName="Suffix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="mm" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bAct_TurnBackPB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="取料&#xD;&#xA;轉向歸" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="主頁" ObjectName="bSeatRequestPB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="請求&#xD;&#xA;中座" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="主頁" ObjectName="bRunPB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="主機Run" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="主頁" ObjectName="bRunPB" PropertyName="Texts[0]" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Run" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="主頁" ObjectName="bRunPB" PropertyName="Texts[1]" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Stop" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放料" ObjectName="bPG_TimeSetting" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="警報顯示" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="手動_取放盤" ObjectName="bPG_TimeSetting" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="警報顯示" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="Z軸位置移動確認頁" ObjectName="Text" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="注意!!&#xD;&#xA;此操作可能對機器造成損壞,&#xD;&#xA;請確認目前伺服及料盤狀態,&#xD;&#xA;再行下列操作。" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="Z軸位置移動確認頁" ObjectName="bAct_GoTakeTrayPosPB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="接料盤位置&#xD;&#xA;GO" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="Z軸位置移動確認頁" ObjectName="bAct_GoFixMovePB" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="固定距離&#xD;&#xA;GO" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="Z軸位置移動確認頁" ObjectName="bPG_Tray" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="回取放&#xD;&#xA;料盤" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem0" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="急停押扣中" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem1" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="總氣源壓力異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem2" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="接料盤移位歸異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem3" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="接料盤移位出異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem4" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="上下歸異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem5" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="上下出異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem6" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="夾持歸異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem7" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="夾持出異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem8" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="轉向歸異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem9" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="轉向出異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem10" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="定位歸異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem11" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="定位出異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem12" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="檢查歸異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem13" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="檢查出異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem14" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="O令檢查異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem15" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="止漏環檢查異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem16" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="活塞檢查異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem17" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="料盤架無料盤" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem18" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="空料盤已滿" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem19" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="無中座" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem20" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Y軸前極限異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem21" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Y軸後極限異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem22" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="X軸前極限異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem23" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="X軸後極限異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem24" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Z軸上極限異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem25" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Z軸下極限異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem26" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="空料盤門開啟" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem27" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="取料盤歸1異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem28" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="取料盤出1異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem29" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="取料盤歸2異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem30" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="取料盤出2異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem31" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="料盤夾持歸1異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem32" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="料盤夾持出1異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem33" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="料盤夾持歸2異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem34" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="料盤夾持出2異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem35" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="料盤夾持歸3異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem36" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="料盤夾持出3異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem37" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="料盤夾持歸4異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem38" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="料盤夾持出4異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem39" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="接料盤歸1異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem40" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="接料盤出1異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem41" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="接料盤歸2異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem42" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="接料盤出2異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem43" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="縱向擋盤歸1異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem44" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="縱向擋盤出1異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem45" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="縱向擋盤歸2異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem46" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="縱向擋盤出2異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem47" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="橫向擋盤歸1異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem48" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="橫向擋盤出1異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem49" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="料盤架無料盤" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem50" PropertyName="StaticText" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="接料盤異常" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="警報顯示" ObjectName="bAct_ResetPB_Main" PropertyName="Text" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="RESET" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="主頁" ObjectName="numIndexX" PropertyName="Prefix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="X軸位置索引值" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="主頁" ObjectName="numIndexX" PropertyName="Suffix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="主頁" ObjectName="numIndexY" PropertyName="Prefix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Y軸位置索引值" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" DesignerName="主頁" ObjectName="numIndexY" PropertyName="Suffix" IsActive="True" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
+        </ReferenceValue>
+      </Object>
+    </ResourceItems>
+  </Object>
+</NeoItem>

@@ -1,0 +1,12 @@
+urn:network-tag-v1
+1,ResetPB_8190,2,1,,
+1,CCDStartFlag_8190,2,1,,
+1,CCDStartPB_8190,2,1,,
+0,CCDCheckOK_8190,2,1,,
+0,CCDCheckNG_8190,2,1,,
+0,CCDOver3TimesError_8190,2,1,,
+1,CCDSectionChange,2,1,,
+1,CCDSectionNo,2,0,,
+0,CCDSectionChangeComplete,2,1,,
+0,S8140OK,2,1,,
+0,S8140NG,2,1,,

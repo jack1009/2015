@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.30.24.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="手動選擇.Button9" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動選擇.Button7" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動選擇.Button4" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動選擇.Button1" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動選擇.bPG_Main" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動選擇.Button11" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動選擇.Button" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動選擇.Button2" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items />
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="手動選擇.Button9" TargetProperty="Actions" Source="S4手動" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="手動選擇.Button7" TargetProperty="Actions" Source="S7手動" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="手動選擇.Button4" TargetProperty="Actions" Source="S6手動" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="手動選擇.Button1" TargetProperty="Actions" Source="S5手動" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="手動選擇.bPG_Main" TargetProperty="Actions" Source="主頁" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="手動選擇.Button11" TargetProperty="Actions" Source="手動選擇" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="手動選擇.Button" TargetProperty="Actions" Source="S3手動" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="手動選擇.Button2" TargetProperty="Actions" Source="S2手動" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>手動選擇</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>9</ObjectsCount>
+          <ScreenName>手動選擇</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

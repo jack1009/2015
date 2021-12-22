@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.20.2296.0'?>
+<NeoItem d1p1:Serializer="Neo.ApplicationFramework.Common.Serialization.ObjectSerializer" xmlns:d1p1="urn:Neo.ApplicationFramework.Serializer">
+  <Object d1p1:type="Neo.ApplicationFramework.Tools.Security.SecurityManager, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" AutomaticLogoutEnabled="True" ActionOnAccessDenied="ShowAccessDeniedMessage" d1p1:Site.Name="Security" ProjectGuid="1aa92fd4-e58b-4687-9e13-5bc2b744b4be" />
+</NeoItem>

@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.20.2296.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items>
+        <Item xsi:type="AlarmViewerItem" Target="警報顯示.AlarmViewer" ServerID="" ServerPort="0" MaximumAlarmEvents="100" />
+      </Items>
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="警報顯示.bPG_TimeSetting" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="警報顯示.bPG_Main" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="警報顯示.bPG_Seat" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="警報顯示.bPG_Tray" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="警報顯示.AlarmViewer" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="警報顯示.bAct_ResetPB_Main" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="警報顯示.bPG_TimeSetting" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="警報顯示.bPG_TimeSetting" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="警報顯示.bPG_Main" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="警報顯示.bPG_Main" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="警報顯示.bPG_Seat" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="警報顯示.bPG_Seat" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="警報顯示.bPG_Tray" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="警報顯示.bPG_Tray" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="警報顯示.bAct_ResetPB_Main" TargetProperty="Actions" Source="Tags.ResetPB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="警報顯示.bAct_ResetPB_Main" TargetProperty="Actions" Source="Tags.ResetPB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="警報顯示.bAct_ResetPB_Main" TargetProperty="Actions" Source="Tags.ResetPB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item Target="警報顯示.bAct_ResetPB_Main" TargetProperty="Value" Source="Tags.ResetPB" />
+        <Item Target="警報顯示.bAct_ResetPB_Main" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="警報顯示.bAct_ResetPB_Main" TargetProperty="Background" Source="Tags.ResetPB" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="警報顯示.bPG_TimeSetting" TargetProperty="Actions" Source="警報顯示" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="警報顯示.bPG_Main" TargetProperty="Actions" Source="主頁" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="警報顯示.bPG_Seat" TargetProperty="Actions" Source="手動_取放料" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="警報顯示.bPG_Tray" TargetProperty="Actions" Source="手動_取放盤" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>警報顯示</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="警報顯示.bPG_TimeSetting" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="警報顯示.bPG_TimeSetting" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="警報顯示.bPG_Main" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="警報顯示.bPG_Main" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="警報顯示.bPG_Seat" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="警報顯示.bPG_Seat" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="警報顯示.bPG_Tray" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="警報顯示.bPG_Tray" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="警報顯示.bAct_ResetPB_Main" TargetProperty="Actions" Source="Tags.ResetPB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="警報顯示.bAct_ResetPB_Main" TargetProperty="Actions" Source="Tags.ResetPB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="警報顯示.bAct_ResetPB_Main" TargetProperty="Actions" Source="Tags.ResetPB" Event="MouseLeave" Action="Reset Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project SchemaVersion="2.30.24.0">
+  <Guid>1aa92fd4-e58b-4687-9e13-5bc2b744b4be</Guid>
+  <ProjectFiles>
+    <ProjectFile Name="AlarmServer.neo" ModifiedDate="2018-10-15T11:31:55.2219052+08:00" Length="150200" />
+    <ProjectFile Name="Expressions.neo" ModifiedDate="2016-03-25T10:33:48.6179288+08:00" Length="461" />
+    <ProjectFile Name="LicenseRootComponent.neo" ModifiedDate="2018-10-15T11:32:03.9124023+08:00" Length="13030" />
+    <ProjectFile Name="MultipleLanguages.neo" ModifiedDate="2020-09-24T12:19:34.6845977+08:00" Length="151948" />
+    <ProjectFile Name="Tags.neo" ModifiedDate="2020-09-24T12:19:35.4851539+08:00" Length="500649" />
+    <ProjectFile Name="Tags.Script.cs" ModifiedDate="2020-09-24T12:19:35.4978122+08:00" Length="779" />
+    <ProjectFile Name="ProjectConfiguration.neo" ModifiedDate="2016-03-25T10:33:48.9879506+08:00" Length="6403" />
+    <ProjectFile Name="Security.neo" ModifiedDate="2016-03-25T10:33:49.0049518+08:00" Length="453" />
+    <ProjectFile Name="Security.xml" ModifiedDate="2016-03-25T10:33:49.023953+08:00" Length="695" />
+    <ProjectFile Name="SntpClientRootComponent.neo" ModifiedDate="2016-03-25T10:33:49.0449588+08:00" Length="472" />
+    <ProjectFile Name="ProjectImages.neo" ModifiedDate="2018-10-15T11:32:06.179532+08:00" Length="454" />
+    <ProjectFile Name="Symbols\ag_arrow down green.lib" ModifiedDate="2015-10-20T01:20:22+08:00" Length="11484" />
+    <ProjectFile Name="Symbols\ag_arrow left green.lib" ModifiedDate="2015-10-20T01:20:22+08:00" Length="12158" />
+    <ProjectFile Name="Symbols\ag_arrow right green.lib" ModifiedDate="2015-10-20T01:20:22+08:00" Length="12518" />
+    <ProjectFile Name="Symbols\ag_arrow up green.lib" ModifiedDate="2015-10-20T01:20:22+08:00" Length="11283" />
+    <ProjectFile Name="Symbols\bell push.lib" ModifiedDate="2015-10-20T01:20:24+08:00" Length="37698" />
+    <ProjectFile Name="Symbols\rocker switch2 off.lib" ModifiedDate="2015-10-20T01:20:24+08:00" Length="11891" />
+    <ProjectFile Name="主頁.neoxaml" ModifiedDate="2020-09-24T12:20:01.7453001+08:00" Length="795" />
+    <ProjectFile Name="主頁.Script.cs" ModifiedDate="2020-09-24T12:20:01.7463026+08:00" Length="778" />
+    <ProjectFile Name="主頁.xaml" ModifiedDate="2020-09-24T12:20:01.8302122+08:00" Length="63944" />
+    <ProjectFile Name="手動_取放料.neoxaml" ModifiedDate="2016-05-26T09:38:22.5375803+08:00" Length="811" />
+    <ProjectFile Name="手動_取放料.Script.cs" ModifiedDate="2016-05-26T09:38:22.5375803+08:00" Length="932" />
+    <ProjectFile Name="手動_取放料.xaml" ModifiedDate="2017-08-11T15:13:23.6207932+08:00" Length="154365" />
+    <ProjectFile Name="手動_取放盤.neoxaml" ModifiedDate="2016-05-26T09:38:24.2216767+08:00" Length="811" />
+    <ProjectFile Name="手動_取放盤.Script.cs" ModifiedDate="2016-05-26T09:38:24.2216767+08:00" Length="788" />
+    <ProjectFile Name="手動_取放盤.xaml" ModifiedDate="2017-08-11T15:13:23.635794+08:00" Length="125266" />
+    <ProjectFile Name="Z軸位置移動確認頁.neoxaml" ModifiedDate="2016-04-13T11:28:23.9861043+08:00" Length="820" />
+    <ProjectFile Name="Z軸位置移動確認頁.xaml" ModifiedDate="2017-08-11T15:13:23.5797908+08:00" Length="16030" />
+    <ProjectFile Name="S4手動.neoxaml" ModifiedDate="2016-06-17T13:11:28.9780819+08:00" Length="803" />
+    <ProjectFile Name="S4手動.xaml" ModifiedDate="2017-08-11T15:13:23.5417886+08:00" Length="22035" />
+    <ProjectFile Name="基礎畫面.neoxaml" ModifiedDate="2016-06-17T13:09:38.1297417+08:00" Length="807" />
+    <ProjectFile Name="基礎畫面.xaml" ModifiedDate="2017-08-11T15:13:23.6037922+08:00" Length="1232" />
+    <ProjectFile Name="手動選擇.neoxaml" ModifiedDate="2016-06-17T14:56:53.4038184+08:00" Length="807" />
+    <ProjectFile Name="手動選擇.xaml" ModifiedDate="2017-08-11T15:13:23.6447945+08:00" Length="15388" />
+    <ProjectFile Name="S5手動.neoxaml" ModifiedDate="2016-08-03T13:47:26.3166129+08:00" Length="803" />
+    <ProjectFile Name="S5手動.xaml" ModifiedDate="2017-08-11T15:13:23.5527893+08:00" Length="67117" />
+    <ProjectFile Name="S6手動.neoxaml" ModifiedDate="2016-09-09T14:13:18.0248522+08:00" Length="803" />
+    <ProjectFile Name="S6手動.xaml" ModifiedDate="2017-08-11T15:13:23.5617898+08:00" Length="34260" />
+    <ProjectFile Name="S7手動.neoxaml" ModifiedDate="2016-09-09T13:43:28.3664896+08:00" Length="803" />
+    <ProjectFile Name="S7手動.xaml" ModifiedDate="2017-08-11T15:13:23.5717904+08:00" Length="48972" />
+    <ProjectFile Name="S3手動.neoxaml" ModifiedDate="2016-06-17T13:51:18.3277449+08:00" Length="803" />
+    <ProjectFile Name="S3手動.xaml" ModifiedDate="2017-08-11T15:13:23.5337882+08:00" Length="33479" />
+    <ProjectFile Name="S2手動.neoxaml" ModifiedDate="2016-06-17T14:56:53.6908348+08:00" Length="803" />
+    <ProjectFile Name="S2手動.xaml" ModifiedDate="2017-08-11T15:13:23.5247877+08:00" Length="71632" />
+    <ProjectFile Name="Printer1.xml" ModifiedDate="2016-03-25T10:33:49.5759873+08:00" Length="850" />
+    <ProjectFile Name="Controller1.neo" ModifiedDate="2020-09-24T12:19:37.2653487+08:00" Length="99450" />
+    <ProjectFile Name="Controller2.neo" ModifiedDate="2018-10-15T11:32:06.8455701+08:00" Length="28937" />
+  </ProjectFiles>
+</Project>

@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.30.24.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="S10手動.Button12" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="S10手動.Button11" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="S10手動.Button10" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="S10手動.Button8" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="S10手動.Button7" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="S10手動.Button6" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="S10手動.Button4" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="S10手動.Button3" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="S10手動.Button2" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="S10手動.Button1" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="S10手動.Button" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="S10手動.Button13" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="S10手動.bPG_Main" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="S10手動.Button5" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="S10手動.Button9" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="S10手動.Button12" TargetProperty="Value" Source="Tags.S10_NGOut_PB" />
+        <Item Target="S10手動.Button12" TargetProperty="Background" Source="Tags.S10_NGOut_SNR" />
+        <Item Target="S10手動.Button11" TargetProperty="Value" Source="Tags.S10_NGBack_PB" />
+        <Item Target="S10手動.Button11" TargetProperty="Background" Source="Tags.S10_NGBack_SOL" />
+        <Item Target="S10手動.Button10" TargetProperty="Value" Source="Tags.S10_MoveOut_PB" />
+        <Item Target="S10手動.Button10" TargetProperty="Background" Source="Tags.S10_MoveOut_LS" />
+        <Item Target="S10手動.Button8" TargetProperty="Value" Source="Tags.S10_MoveBack_PB" />
+        <Item Target="S10手動.Button8" TargetProperty="Background" Source="Tags.S10_MoveBack_SOL" />
+        <Item Target="S10手動.Button7" TargetProperty="Value" Source="Tags.S10_TurnBack_PB" />
+        <Item Target="S10手動.Button7" TargetProperty="Background" Source="Tags.S10_TurnBack_SOL" />
+        <Item Target="S10手動.Button6" TargetProperty="Value" Source="Tags.S10_MoveClip_PB" />
+        <Item Target="S10手動.Button6" TargetProperty="Background" Source="Tags.S10_MoveClip_SOL" />
+        <Item Target="S10手動.Button4" TargetProperty="Value" Source="Tags.S10_Pick_PB" />
+        <Item Target="S10手動.Button4" TargetProperty="Background" Source="Tags.S10_Pick_SOL" />
+        <Item Target="S10手動.Button3" TargetProperty="Value" Source="Tags.S10_Clip_PB" />
+        <Item Target="S10手動.Button3" TargetProperty="Background" Source="Tags.S10_Clip_SOL" />
+        <Item Target="S10手動.Button2" TargetProperty="Value" Source="Tags.S10_TurnOut_PB" />
+        <Item Target="S10手動.Button2" TargetProperty="Background" Source="Tags.S10_TurnOut_LS" />
+        <Item Target="S10手動.Button1" TargetProperty="Value" Source="Tags.S10_Push_PB" />
+        <Item Target="S10手動.Button1" TargetProperty="Background" Source="Tags.S10_Push_SOL" />
+        <Item Target="S10手動.Button" TargetProperty="Value" Source="Tags.S10_UpDown_PB" />
+        <Item Target="S10手動.Button" TargetProperty="Background" Source="Tags.S10_UpDown_SOL" />
+        <Item Target="S10手動.Button13" TargetProperty="Value" Source="Tags.Index_PB" />
+        <Item Target="S10手動.Button13" TargetProperty="Background" Source="Tags.Index_RY" />
+        <Item xsi:type="ActionItem" Target="S10手動.bPG_Main" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="S10手動.Button5" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="S10手動.Button9" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Set Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="S10手動.bPG_Main" TargetProperty="Actions" Source="主頁" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="S10手動.Button5" TargetProperty="Actions" Source="手動選擇" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="S10手動.Button9" TargetProperty="Actions" Source="測試" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>S10手動</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>16</ObjectsCount>
+          <ScreenName>S10手動</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="S10手動.bPG_Main" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="S10手動.Button5" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="S10手動.Button9" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Set Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

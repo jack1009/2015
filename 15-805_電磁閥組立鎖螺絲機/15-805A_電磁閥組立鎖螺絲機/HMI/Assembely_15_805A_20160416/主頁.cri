@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.30.24.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items>
+        <Item xsi:type="AlarmViewerItem" Target="主頁.AlarmViewer" ServerID="" ServerPort="0" MaximumAlarmEvents="100" />
+      </Items>
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="主頁.bPG_Main" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Button5" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Button1" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Button14" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Button2" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Button4" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.AlarmViewer" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Button" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Button7" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Button8" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Group.Text12" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Group.Text13" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Group.Text14" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Group.Text15" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Group.Text16" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Group.Text17" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Group.Text18" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Group.Text19" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Group.Text20" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Group.Text21" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Group.Text22" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Group.Text23" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Text11" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Text10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Text9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Text7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Text5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Text4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Text24" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Text25" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Text26" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Text27" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Text28" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Text29" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Text30" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Text31" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Text32" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Text33" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Text34" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.Text35" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="主頁.AnalogNumeric1" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.AnalogNumeric" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Button3" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Button6" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.AnalogNumeric2" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Main" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.Button5" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item Target="主頁.Button5" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.AllStationIdle" />
+        <Item xsi:type="ActionItem" Target="主頁.Button1" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item Target="主頁.Button14" TargetProperty="Value" Source="Tags.EnablePB_S1" />
+        <Item Target="主頁.Button14" TargetProperty="TextValue" Source="Tags.EnablePB_S1" />
+        <Item Target="主頁.Button14" TargetProperty="Background" Source="Tags.EnablePB_S1" />
+        <Item Target="主頁.Button7" TargetProperty="Value" Source="Tags.PutObjectPB_S1" />
+        <Item Target="主頁.Button7" TargetProperty="TextValue" Source="Tags.PutObjectPB_S1" />
+        <Item Target="主頁.Button7" TargetProperty="Background" Source="Tags.PutObjectPB_S1" />
+        <Item Target="主頁.Button8" TargetProperty="Value" Source="Tags.FeedObjStart_S1S8PB" />
+        <Item Target="主頁.Group.Rectangle15" TargetProperty="Fill" Source="Tags.ORG_S11" />
+        <Item Target="主頁.Group.Rectangle16" TargetProperty="Fill" Source="Tags.ORG_S10" />
+        <Item Target="主頁.Group.Rectangle17" TargetProperty="Fill" Source="Tags.ORG_S9" />
+        <Item Target="主頁.Group.Rectangle18" TargetProperty="Fill" Source="Tags.ORG_S8" />
+        <Item Target="主頁.Group.Rectangle19" TargetProperty="Fill" Source="Tags.ORG_S7" />
+        <Item Target="主頁.Group.Rectangle20" TargetProperty="Fill" Source="Tags.ORG_S6" />
+        <Item Target="主頁.Group.Rectangle21" TargetProperty="Fill" Source="Tags.ORG_S5" />
+        <Item Target="主頁.Group.Rectangle22" TargetProperty="Fill" Source="Tags.ORG_S4" />
+        <Item Target="主頁.Group.Rectangle23" TargetProperty="Fill" Source="Tags.ORG_S3" />
+        <Item Target="主頁.Group.Rectangle24" TargetProperty="Fill" Source="Tags.ORG_S2" />
+        <Item Target="主頁.Group.Rectangle25" TargetProperty="Fill" Source="Tags.ORG_S1" />
+        <Item Target="主頁.Rectangle10" TargetProperty="Fill" Source="Tags.NG_S11" />
+        <Item Target="主頁.Rectangle9" TargetProperty="Fill" Source="Tags.NG_S10" />
+        <Item Target="主頁.Rectangle8" TargetProperty="Fill" Source="Tags.NG_S9" />
+        <Item Target="主頁.Rectangle7" TargetProperty="Fill" Source="Tags.NG_S8" />
+        <Item Target="主頁.Rectangle6" TargetProperty="Fill" Source="Tags.NG_S7" />
+        <Item Target="主頁.Rectangle5" TargetProperty="Fill" Source="Tags.NG_S6" />
+        <Item Target="主頁.Rectangle4" TargetProperty="Fill" Source="Tags.NG_S5" />
+        <Item Target="主頁.Rectangle3" TargetProperty="Fill" Source="Tags.NG_S4" />
+        <Item Target="主頁.Rectangle2" TargetProperty="Fill" Source="Tags.NG_S3" />
+        <Item Target="主頁.Rectangle1" TargetProperty="Fill" Source="Tags.NG_S2" />
+        <Item Target="主頁.Rectangle" TargetProperty="Fill" Source="Tags.NG_S1" />
+        <Item Target="主頁.Rectangle28" TargetProperty="Fill" Source="Tags.Finish_S11" />
+        <Item Target="主頁.Rectangle29" TargetProperty="Fill" Source="Tags.Finish_S10" />
+        <Item Target="主頁.Rectangle30" TargetProperty="Fill" Source="Tags.Finish_S9" />
+        <Item Target="主頁.Rectangle31" TargetProperty="Fill" Source="Tags.Finish_S8" />
+        <Item Target="主頁.Rectangle32" TargetProperty="Fill" Source="Tags.Finish_S7" />
+        <Item Target="主頁.Rectangle33" TargetProperty="Fill" Source="Tags.Finish_S6" />
+        <Item Target="主頁.Rectangle34" TargetProperty="Fill" Source="Tags.Finish_S5" />
+        <Item Target="主頁.Rectangle35" TargetProperty="Fill" Source="Tags.Finish_S4" />
+        <Item Target="主頁.Rectangle36" TargetProperty="Fill" Source="Tags.Finish_S3" />
+        <Item Target="主頁.Rectangle37" TargetProperty="Fill" Source="Tags.Finish_S2" />
+        <Item Target="主頁.Rectangle38" TargetProperty="Fill" Source="Tags.Finish_S1" />
+        <Item Target="主頁.AnalogNumeric1" TargetProperty="Value" Source="Tags.NGCounter" />
+        <Item Target="主頁.AnalogNumeric" TargetProperty="Value" Source="Tags.OKCounter" />
+        <Item xsi:type="ActionItem" Target="主頁.Button3" TargetProperty="Actions" Source="Tags.OKCounter" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="主頁.Button3" TargetProperty="Value" Source="Tags.ClearOKCounter" />
+        <Item xsi:type="ActionItem" Target="主頁.Button6" TargetProperty="Actions" Source="Tags.NGCounter" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="主頁.Button6" TargetProperty="Value" Source="Tags.ClearNGCounter" />
+        <Item Target="主頁.AnalogNumeric2" TargetProperty="Value" Source="Tags.goodrate" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Main" TargetProperty="Actions" Source="主頁" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="主頁.Button5" TargetProperty="Actions" Source="手動選擇" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="主頁.Button1" TargetProperty="Actions" Source="測試" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="主頁.Button2" TargetProperty="Actions" Source="時間1" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="主頁.Button" TargetProperty="Actions" Source="工作站選擇" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>主頁</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>91</ObjectsCount>
+          <ScreenName>主頁</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Main" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.Button5" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.Button1" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.Button3" TargetProperty="Actions" Source="Tags.OKCounter" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.Button6" TargetProperty="Actions" Source="Tags.NGCounter" Event="Click" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

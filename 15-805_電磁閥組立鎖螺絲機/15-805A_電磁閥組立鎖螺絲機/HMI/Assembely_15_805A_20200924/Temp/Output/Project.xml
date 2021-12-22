@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project SchemaVersion="2.30.24.0">
+  <Guid>ce1961f1-9fd7-4b80-8117-64b2331f184b</Guid>
+  <ProjectFiles>
+    <ProjectFile Name="AlarmServer.neo" ModifiedDate="2018-11-15T11:24:38.2557338+08:00" Length="627613" />
+    <ProjectFile Name="Expressions.neo" ModifiedDate="2016-04-16T15:55:44+08:00" Length="461" />
+    <ProjectFile Name="LicenseRootComponent.neo" ModifiedDate="2018-11-15T11:24:53.1605863+08:00" Length="13030" />
+    <ProjectFile Name="MultipleLanguages.neo" ModifiedDate="2020-09-24T11:04:03.9514885+08:00" Length="296547" />
+    <ProjectFile Name="Tags.neo" ModifiedDate="2020-09-24T10:34:02.7727065+08:00" Length="602440" />
+    <ProjectFile Name="ProjectConfiguration.neo" ModifiedDate="2016-05-02T11:46:51.5748402+08:00" Length="7971" />
+    <ProjectFile Name="Security.neo" ModifiedDate="2020-09-24T10:22:41.3882205+08:00" Length="526" />
+    <ProjectFile Name="Security.xml" ModifiedDate="2020-09-24T10:22:41.394076+08:00" Length="1343" />
+    <ProjectFile Name="SntpClientRootComponent.neo" ModifiedDate="2016-04-16T15:55:44+08:00" Length="472" />
+    <ProjectFile Name="ProjectImages.neo" ModifiedDate="2018-11-15T11:24:57.7218472+08:00" Length="454" />
+    <ProjectFile Name="FunctionKeys.neo" ModifiedDate="2016-06-14T16:05:44.7464625+08:00" Length="17570" />
+    <ProjectFile Name="S1手動.neoxaml" ModifiedDate="2018-11-15T14:28:52.4253476+08:00" Length="797" />
+    <ProjectFile Name="S1手動.xaml" ModifiedDate="2018-11-15T14:28:53.0723846+08:00" Length="52973" />
+    <ProjectFile Name="S2手動.neoxaml" ModifiedDate="2016-05-30T11:36:39.384213+08:00" Length="803" />
+    <ProjectFile Name="S2手動.xaml" ModifiedDate="2017-03-20T11:50:06.4375566+08:00" Length="76343" />
+    <ProjectFile Name="手動選擇.neoxaml" ModifiedDate="2016-05-23T13:48:29.5142765+08:00" Length="807" />
+    <ProjectFile Name="手動選擇.xaml" ModifiedDate="2017-03-20T11:50:06.4685584+08:00" Length="28733" />
+    <ProjectFile Name="S3手動.neoxaml" ModifiedDate="2016-05-23T13:48:29.9753029+08:00" Length="803" />
+    <ProjectFile Name="S3手動.xaml" ModifiedDate="2017-03-20T11:50:06.4385567+08:00" Length="38186" />
+    <ProjectFile Name="S4手動.neoxaml" ModifiedDate="2016-05-23T13:48:30.3173225+08:00" Length="803" />
+    <ProjectFile Name="S4手動.xaml" ModifiedDate="2017-03-20T11:50:06.4395567+08:00" Length="26742" />
+    <ProjectFile Name="基礎畫面.neoxaml" ModifiedDate="2016-04-28T15:01:23.1445312+08:00" Length="807" />
+    <ProjectFile Name="基礎畫面.xaml" ModifiedDate="2017-03-20T11:50:06.4655582+08:00" Length="1206" />
+    <ProjectFile Name="S5手動.neoxaml" ModifiedDate="2016-08-03T13:41:56.2187324+08:00" Length="803" />
+    <ProjectFile Name="S5手動.xaml" ModifiedDate="2017-03-20T11:50:06.4525575+08:00" Length="71825" />
+    <ProjectFile Name="S6手動.neoxaml" ModifiedDate="2016-09-09T14:09:02.3222268+08:00" Length="803" />
+    <ProjectFile Name="S6手動.xaml" ModifiedDate="2017-03-20T11:50:06.4545576+08:00" Length="38967" />
+    <ProjectFile Name="S7手動.neoxaml" ModifiedDate="2016-09-09T13:36:12.3655518+08:00" Length="803" />
+    <ProjectFile Name="S7手動.xaml" ModifiedDate="2017-03-20T11:50:06.4565577+08:00" Length="53680" />
+    <ProjectFile Name="S8手動.neoxaml" ModifiedDate="2016-05-23T13:48:31.9984186+08:00" Length="803" />
+    <ProjectFile Name="S8手動.xaml" ModifiedDate="2017-03-20T11:50:06.4585578+08:00" Length="75982" />
+    <ProjectFile Name="S9手動.neoxaml" ModifiedDate="2016-06-04T14:27:19.1190971+08:00" Length="803" />
+    <ProjectFile Name="S9手動.xaml" ModifiedDate="2017-03-20T11:50:06.461558+08:00" Length="97629" />
+    <ProjectFile Name="主頁.neoxaml" ModifiedDate="2020-09-24T11:04:04.1281469+08:00" Length="795" />
+    <ProjectFile Name="主頁.Script.cs" ModifiedDate="2020-09-24T11:04:04.1320532+08:00" Length="785" />
+    <ProjectFile Name="主頁.xaml" ModifiedDate="2020-09-24T11:04:04.4316835+08:00" Length="133994" />
+    <ProjectFile Name="S10手動.neoxaml" ModifiedDate="2016-05-23T13:48:34.5205629+08:00" Length="804" />
+    <ProjectFile Name="S10手動.xaml" ModifiedDate="2017-03-20T11:50:06.4325563+08:00" Length="60030" />
+    <ProjectFile Name="S11手動.neoxaml" ModifiedDate="2016-06-04T14:27:21.0102053+08:00" Length="804" />
+    <ProjectFile Name="S11手動.xaml" ModifiedDate="2017-03-20T11:50:06.4335564+08:00" Length="18485" />
+    <ProjectFile Name="測試.neoxaml" ModifiedDate="2016-05-23T13:48:35.4046134+08:00" Length="801" />
+    <ProjectFile Name="測試.xaml" ModifiedDate="2017-03-20T11:50:06.4715586+08:00" Length="44348" />
+    <ProjectFile Name="時間1.neoxaml" ModifiedDate="2020-09-24T10:34:03.4792967+08:00" Length="796" />
+    <ProjectFile Name="時間1.xaml" ModifiedDate="2020-09-24T10:34:03.5456646+08:00" Length="32321" />
+    <ProjectFile Name="時間2.neoxaml" ModifiedDate="2020-09-24T10:34:03.8218732+08:00" Length="796" />
+    <ProjectFile Name="時間2.xaml" ModifiedDate="2020-09-24T10:34:03.8765291+08:00" Length="28402" />
+    <ProjectFile Name="工作站選擇.neoxaml" ModifiedDate="2016-07-22T10:16:48.4052001+08:00" Length="810" />
+    <ProjectFile Name="工作站選擇.xaml" ModifiedDate="2017-03-20T11:50:06.4675584+08:00" Length="36963" />
+    <ProjectFile Name="Printer1.xml" ModifiedDate="2016-04-16T15:55:44+08:00" Length="850" />
+    <ProjectFile Name="Controller2.neo" ModifiedDate="2020-09-24T10:34:04.2308176+08:00" Length="148201" />
+  </ProjectFiles>
+</Project>

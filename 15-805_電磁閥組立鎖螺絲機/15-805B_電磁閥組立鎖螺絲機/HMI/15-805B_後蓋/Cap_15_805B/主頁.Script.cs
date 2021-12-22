@@ -1,0 +1,410 @@
+//--------------------------------------------------------------
+// Press F1 to get help about using script.
+// To access an object that is not located in the current class, start the call with Globals.
+// When using events and timers be cautious not to generate memoryleaks,
+// please see the help for more information.
+//---------------------------------------------------------------
+
+namespace Neo.ApplicationFramework.Generated
+{
+    using System.Windows.Forms;
+    using System;
+    using System.Drawing;
+    using Neo.ApplicationFramework.Tools;
+    using Neo.ApplicationFramework.Common.Graphics.Logic;
+    using Neo.ApplicationFramework.Controls;
+    using Neo.ApplicationFramework.Interfaces;
+    
+    
+    public partial class 主頁
+    {
+		
+		void bAct_CopyDataPB_Click(System.Object sender, System.EventArgs e)
+		{
+			Globals.Tags.PickPOSAddress000X_R.Value=Globals.Tags.PickPOSAddress000X.Value;
+			Globals.Tags.PickPOSAddress000X_R.Value=Globals.Tags.PickPOSAddress000X.Value;
+			Globals.Tags.PickPOSAddress000Y_R.Value=Globals.Tags.PickPOSAddress000Y.Value;
+			Globals.Tags.PickPOSAddress001X_R.Value=Globals.Tags.PickPOSAddress001X.Value;
+			Globals.Tags.PickPOSAddress001Y_R.Value=Globals.Tags.PickPOSAddress001Y.Value;
+			Globals.Tags.PickPOSAddress002X_R.Value=Globals.Tags.PickPOSAddress002X.Value;
+			Globals.Tags.PickPOSAddress002Y_R.Value=Globals.Tags.PickPOSAddress002Y.Value;
+			Globals.Tags.PickPOSAddress003X_R.Value=Globals.Tags.PickPOSAddress003X.Value;
+			Globals.Tags.PickPOSAddress003Y_R.Value=Globals.Tags.PickPOSAddress003Y.Value;
+			Globals.Tags.PickPOSAddress004X_R.Value=Globals.Tags.PickPOSAddress004X.Value;
+			Globals.Tags.PickPOSAddress004Y_R.Value=Globals.Tags.PickPOSAddress004Y.Value;
+			Globals.Tags.PickPOSAddress005X_R.Value=Globals.Tags.PickPOSAddress005X.Value;
+			Globals.Tags.PickPOSAddress005Y_R.Value=Globals.Tags.PickPOSAddress005Y.Value;
+			Globals.Tags.PickPOSAddress006X_R.Value=Globals.Tags.PickPOSAddress007X.Value;
+			Globals.Tags.PickPOSAddress006Y_R.Value=Globals.Tags.PickPOSAddress007Y.Value;
+			Globals.Tags.PickPOSAddress008X_R.Value=Globals.Tags.PickPOSAddress008X.Value;
+			Globals.Tags.PickPOSAddress008Y_R.Value=Globals.Tags.PickPOSAddress008Y.Value;
+			Globals.Tags.PickPOSAddress009X_R.Value=Globals.Tags.PickPOSAddress009X.Value;
+			Globals.Tags.PickPOSAddress009Y_R.Value=Globals.Tags.PickPOSAddress009Y.Value;
+			
+			Globals.Tags.PickPOSAddress100X_R.Value=Globals.Tags.PickPOSAddress100X.Value;
+			Globals.Tags.PickPOSAddress100Y_R.Value=Globals.Tags.PickPOSAddress100Y.Value;
+			Globals.Tags.PickPOSAddress101X_R.Value=Globals.Tags.PickPOSAddress101X.Value;
+			Globals.Tags.PickPOSAddress101Y_R.Value=Globals.Tags.PickPOSAddress101Y.Value;
+			Globals.Tags.PickPOSAddress102X_R.Value=Globals.Tags.PickPOSAddress102X.Value;
+			Globals.Tags.PickPOSAddress102Y_R.Value=Globals.Tags.PickPOSAddress102Y.Value;
+			Globals.Tags.PickPOSAddress103X_R.Value=Globals.Tags.PickPOSAddress103X.Value;
+			Globals.Tags.PickPOSAddress103Y_R.Value=Globals.Tags.PickPOSAddress103Y.Value;
+			Globals.Tags.PickPOSAddress104X_R.Value=Globals.Tags.PickPOSAddress104X.Value;
+			Globals.Tags.PickPOSAddress104Y_R.Value=Globals.Tags.PickPOSAddress104Y.Value;
+			Globals.Tags.PickPOSAddress105X_R.Value=Globals.Tags.PickPOSAddress105X.Value;
+			Globals.Tags.PickPOSAddress105Y_R.Value=Globals.Tags.PickPOSAddress105Y.Value;
+			Globals.Tags.PickPOSAddress106X_R.Value=Globals.Tags.PickPOSAddress107X.Value;
+			Globals.Tags.PickPOSAddress106Y_R.Value=Globals.Tags.PickPOSAddress107Y.Value;
+			Globals.Tags.PickPOSAddress108X_R.Value=Globals.Tags.PickPOSAddress108X.Value;
+			Globals.Tags.PickPOSAddress108Y_R.Value=Globals.Tags.PickPOSAddress108Y.Value;
+			Globals.Tags.PickPOSAddress109X_R.Value=Globals.Tags.PickPOSAddress109X.Value;
+			Globals.Tags.PickPOSAddress109Y_R.Value=Globals.Tags.PickPOSAddress109Y.Value;
+			
+			Globals.Tags.PickPOSAddress200X_R.Value=Globals.Tags.PickPOSAddress200X.Value;
+			Globals.Tags.PickPOSAddress200Y_R.Value=Globals.Tags.PickPOSAddress200Y.Value;
+			Globals.Tags.PickPOSAddress201X_R.Value=Globals.Tags.PickPOSAddress201X.Value;
+			Globals.Tags.PickPOSAddress201Y_R.Value=Globals.Tags.PickPOSAddress201Y.Value;
+			Globals.Tags.PickPOSAddress202X_R.Value=Globals.Tags.PickPOSAddress202X.Value;
+			Globals.Tags.PickPOSAddress202Y_R.Value=Globals.Tags.PickPOSAddress202Y.Value;
+			Globals.Tags.PickPOSAddress203X_R.Value=Globals.Tags.PickPOSAddress203X.Value;
+			Globals.Tags.PickPOSAddress203Y_R.Value=Globals.Tags.PickPOSAddress203Y.Value;
+			Globals.Tags.PickPOSAddress204X_R.Value=Globals.Tags.PickPOSAddress204X.Value;
+			Globals.Tags.PickPOSAddress204Y_R.Value=Globals.Tags.PickPOSAddress204Y.Value;
+			Globals.Tags.PickPOSAddress205X_R.Value=Globals.Tags.PickPOSAddress205X.Value;
+			Globals.Tags.PickPOSAddress205Y_R.Value=Globals.Tags.PickPOSAddress205Y.Value;
+			Globals.Tags.PickPOSAddress206X_R.Value=Globals.Tags.PickPOSAddress207X.Value;
+			Globals.Tags.PickPOSAddress206Y_R.Value=Globals.Tags.PickPOSAddress207Y.Value;
+			Globals.Tags.PickPOSAddress208X_R.Value=Globals.Tags.PickPOSAddress208X.Value;
+			Globals.Tags.PickPOSAddress208Y_R.Value=Globals.Tags.PickPOSAddress208Y.Value;
+			Globals.Tags.PickPOSAddress209X_R.Value=Globals.Tags.PickPOSAddress209X.Value;
+			Globals.Tags.PickPOSAddress209Y_R.Value=Globals.Tags.PickPOSAddress209Y.Value;
+			
+			Globals.Tags.PickPOSAddress300X_R.Value=Globals.Tags.PickPOSAddress300X.Value;
+			Globals.Tags.PickPOSAddress300Y_R.Value=Globals.Tags.PickPOSAddress300Y.Value;
+			Globals.Tags.PickPOSAddress301X_R.Value=Globals.Tags.PickPOSAddress301X.Value;
+			Globals.Tags.PickPOSAddress301Y_R.Value=Globals.Tags.PickPOSAddress301Y.Value;
+			Globals.Tags.PickPOSAddress302X_R.Value=Globals.Tags.PickPOSAddress302X.Value;
+			Globals.Tags.PickPOSAddress302Y_R.Value=Globals.Tags.PickPOSAddress302Y.Value;
+			Globals.Tags.PickPOSAddress303X_R.Value=Globals.Tags.PickPOSAddress303X.Value;
+			Globals.Tags.PickPOSAddress303Y_R.Value=Globals.Tags.PickPOSAddress303Y.Value;
+			Globals.Tags.PickPOSAddress304X_R.Value=Globals.Tags.PickPOSAddress304X.Value;
+			Globals.Tags.PickPOSAddress304Y_R.Value=Globals.Tags.PickPOSAddress304Y.Value;
+			Globals.Tags.PickPOSAddress305X_R.Value=Globals.Tags.PickPOSAddress305X.Value;
+			Globals.Tags.PickPOSAddress305Y_R.Value=Globals.Tags.PickPOSAddress305Y.Value;
+			Globals.Tags.PickPOSAddress306X_R.Value=Globals.Tags.PickPOSAddress307X.Value;
+			Globals.Tags.PickPOSAddress306Y_R.Value=Globals.Tags.PickPOSAddress307Y.Value;
+			Globals.Tags.PickPOSAddress308X_R.Value=Globals.Tags.PickPOSAddress308X.Value;
+			Globals.Tags.PickPOSAddress308Y_R.Value=Globals.Tags.PickPOSAddress308Y.Value;
+			Globals.Tags.PickPOSAddress309X_R.Value=Globals.Tags.PickPOSAddress309X.Value;
+			Globals.Tags.PickPOSAddress309Y_R.Value=Globals.Tags.PickPOSAddress309Y.Value;
+			
+			Globals.Tags.PickPOSAddress400X_R.Value=Globals.Tags.PickPOSAddress400X.Value;
+			Globals.Tags.PickPOSAddress400Y_R.Value=Globals.Tags.PickPOSAddress400Y.Value;
+			Globals.Tags.PickPOSAddress401X_R.Value=Globals.Tags.PickPOSAddress401X.Value;
+			Globals.Tags.PickPOSAddress401Y_R.Value=Globals.Tags.PickPOSAddress401Y.Value;
+			Globals.Tags.PickPOSAddress402X_R.Value=Globals.Tags.PickPOSAddress402X.Value;
+			Globals.Tags.PickPOSAddress402Y_R.Value=Globals.Tags.PickPOSAddress402Y.Value;
+			Globals.Tags.PickPOSAddress403X_R.Value=Globals.Tags.PickPOSAddress403X.Value;
+			Globals.Tags.PickPOSAddress403Y_R.Value=Globals.Tags.PickPOSAddress403Y.Value;
+			Globals.Tags.PickPOSAddress404X_R.Value=Globals.Tags.PickPOSAddress404X.Value;
+			Globals.Tags.PickPOSAddress404Y_R.Value=Globals.Tags.PickPOSAddress404Y.Value;
+			Globals.Tags.PickPOSAddress405X_R.Value=Globals.Tags.PickPOSAddress405X.Value;
+			Globals.Tags.PickPOSAddress405Y_R.Value=Globals.Tags.PickPOSAddress405Y.Value;
+			Globals.Tags.PickPOSAddress406X_R.Value=Globals.Tags.PickPOSAddress407X.Value;
+			Globals.Tags.PickPOSAddress406Y_R.Value=Globals.Tags.PickPOSAddress407Y.Value;
+			Globals.Tags.PickPOSAddress408X_R.Value=Globals.Tags.PickPOSAddress408X.Value;
+			Globals.Tags.PickPOSAddress408Y_R.Value=Globals.Tags.PickPOSAddress408Y.Value;
+			Globals.Tags.PickPOSAddress409X_R.Value=Globals.Tags.PickPOSAddress409X.Value;
+			Globals.Tags.PickPOSAddress409Y_R.Value=Globals.Tags.PickPOSAddress409Y.Value;
+			
+			Globals.Tags.PickPOSAddress500X_R.Value=Globals.Tags.PickPOSAddress500X.Value;
+			Globals.Tags.PickPOSAddress500Y_R.Value=Globals.Tags.PickPOSAddress500Y.Value;
+			Globals.Tags.PickPOSAddress501X_R.Value=Globals.Tags.PickPOSAddress501X.Value;
+			Globals.Tags.PickPOSAddress501Y_R.Value=Globals.Tags.PickPOSAddress501Y.Value;
+			Globals.Tags.PickPOSAddress502X_R.Value=Globals.Tags.PickPOSAddress502X.Value;
+			Globals.Tags.PickPOSAddress502Y_R.Value=Globals.Tags.PickPOSAddress502Y.Value;
+			Globals.Tags.PickPOSAddress503X_R.Value=Globals.Tags.PickPOSAddress503X.Value;
+			Globals.Tags.PickPOSAddress503Y_R.Value=Globals.Tags.PickPOSAddress503Y.Value;
+			Globals.Tags.PickPOSAddress504X_R.Value=Globals.Tags.PickPOSAddress504X.Value;
+			Globals.Tags.PickPOSAddress504Y_R.Value=Globals.Tags.PickPOSAddress504Y.Value;
+			Globals.Tags.PickPOSAddress505X_R.Value=Globals.Tags.PickPOSAddress505X.Value;
+			Globals.Tags.PickPOSAddress505Y_R.Value=Globals.Tags.PickPOSAddress505Y.Value;
+			Globals.Tags.PickPOSAddress506X_R.Value=Globals.Tags.PickPOSAddress507X.Value;
+			Globals.Tags.PickPOSAddress506Y_R.Value=Globals.Tags.PickPOSAddress507Y.Value;
+			Globals.Tags.PickPOSAddress508X_R.Value=Globals.Tags.PickPOSAddress508X.Value;
+			Globals.Tags.PickPOSAddress508Y_R.Value=Globals.Tags.PickPOSAddress508Y.Value;
+			Globals.Tags.PickPOSAddress509X_R.Value=Globals.Tags.PickPOSAddress509X.Value;
+			Globals.Tags.PickPOSAddress509Y_R.Value=Globals.Tags.PickPOSAddress509Y.Value;
+			
+			Globals.Tags.PickPOSAddress600X_R.Value=Globals.Tags.PickPOSAddress600X.Value;
+			Globals.Tags.PickPOSAddress600Y_R.Value=Globals.Tags.PickPOSAddress600Y.Value;
+			Globals.Tags.PickPOSAddress601X_R.Value=Globals.Tags.PickPOSAddress601X.Value;
+			Globals.Tags.PickPOSAddress601Y_R.Value=Globals.Tags.PickPOSAddress601Y.Value;
+			Globals.Tags.PickPOSAddress602X_R.Value=Globals.Tags.PickPOSAddress602X.Value;
+			Globals.Tags.PickPOSAddress602Y_R.Value=Globals.Tags.PickPOSAddress602Y.Value;
+			Globals.Tags.PickPOSAddress603X_R.Value=Globals.Tags.PickPOSAddress603X.Value;
+			Globals.Tags.PickPOSAddress603Y_R.Value=Globals.Tags.PickPOSAddress603Y.Value;
+			Globals.Tags.PickPOSAddress604X_R.Value=Globals.Tags.PickPOSAddress604X.Value;
+			Globals.Tags.PickPOSAddress604Y_R.Value=Globals.Tags.PickPOSAddress604Y.Value;
+			Globals.Tags.PickPOSAddress605X_R.Value=Globals.Tags.PickPOSAddress605X.Value;
+			Globals.Tags.PickPOSAddress605Y_R.Value=Globals.Tags.PickPOSAddress605Y.Value;
+			Globals.Tags.PickPOSAddress606X_R.Value=Globals.Tags.PickPOSAddress607X.Value;
+			Globals.Tags.PickPOSAddress606Y_R.Value=Globals.Tags.PickPOSAddress607Y.Value;
+			Globals.Tags.PickPOSAddress608X_R.Value=Globals.Tags.PickPOSAddress608X.Value;
+			Globals.Tags.PickPOSAddress608Y_R.Value=Globals.Tags.PickPOSAddress608Y.Value;
+			Globals.Tags.PickPOSAddress609X_R.Value=Globals.Tags.PickPOSAddress609X.Value;
+			Globals.Tags.PickPOSAddress609Y_R.Value=Globals.Tags.PickPOSAddress609Y.Value;
+			
+			Globals.Tags.PickPOSAddress700X_R.Value=Globals.Tags.PickPOSAddress700X.Value;
+			Globals.Tags.PickPOSAddress700Y_R.Value=Globals.Tags.PickPOSAddress700Y.Value;
+			Globals.Tags.PickPOSAddress701X_R.Value=Globals.Tags.PickPOSAddress701X.Value;
+			Globals.Tags.PickPOSAddress701Y_R.Value=Globals.Tags.PickPOSAddress701Y.Value;
+			Globals.Tags.PickPOSAddress702X_R.Value=Globals.Tags.PickPOSAddress702X.Value;
+			Globals.Tags.PickPOSAddress702Y_R.Value=Globals.Tags.PickPOSAddress702Y.Value;
+			Globals.Tags.PickPOSAddress703X_R.Value=Globals.Tags.PickPOSAddress703X.Value;
+			Globals.Tags.PickPOSAddress703Y_R.Value=Globals.Tags.PickPOSAddress703Y.Value;
+			Globals.Tags.PickPOSAddress704X_R.Value=Globals.Tags.PickPOSAddress704X.Value;
+			Globals.Tags.PickPOSAddress704Y_R.Value=Globals.Tags.PickPOSAddress704Y.Value;
+			Globals.Tags.PickPOSAddress705X_R.Value=Globals.Tags.PickPOSAddress705X.Value;
+			Globals.Tags.PickPOSAddress705Y_R.Value=Globals.Tags.PickPOSAddress705Y.Value;
+			Globals.Tags.PickPOSAddress706X_R.Value=Globals.Tags.PickPOSAddress707X.Value;
+			Globals.Tags.PickPOSAddress706Y_R.Value=Globals.Tags.PickPOSAddress707Y.Value;
+			Globals.Tags.PickPOSAddress708X_R.Value=Globals.Tags.PickPOSAddress708X.Value;
+			Globals.Tags.PickPOSAddress708Y_R.Value=Globals.Tags.PickPOSAddress708Y.Value;
+			Globals.Tags.PickPOSAddress709X_R.Value=Globals.Tags.PickPOSAddress709X.Value;
+			Globals.Tags.PickPOSAddress709Y_R.Value=Globals.Tags.PickPOSAddress709Y.Value;
+			
+			Globals.Tags.PickPOSAddress800X_R.Value=Globals.Tags.PickPOSAddress800X.Value;
+			Globals.Tags.PickPOSAddress800Y_R.Value=Globals.Tags.PickPOSAddress800Y.Value;
+			Globals.Tags.PickPOSAddress801X_R.Value=Globals.Tags.PickPOSAddress801X.Value;
+			Globals.Tags.PickPOSAddress801Y_R.Value=Globals.Tags.PickPOSAddress801Y.Value;
+			Globals.Tags.PickPOSAddress802X_R.Value=Globals.Tags.PickPOSAddress802X.Value;
+			Globals.Tags.PickPOSAddress802Y_R.Value=Globals.Tags.PickPOSAddress802Y.Value;
+			Globals.Tags.PickPOSAddress803X_R.Value=Globals.Tags.PickPOSAddress803X.Value;
+			Globals.Tags.PickPOSAddress803Y_R.Value=Globals.Tags.PickPOSAddress803Y.Value;
+			Globals.Tags.PickPOSAddress804X_R.Value=Globals.Tags.PickPOSAddress804X.Value;
+			Globals.Tags.PickPOSAddress804Y_R.Value=Globals.Tags.PickPOSAddress804Y.Value;
+			Globals.Tags.PickPOSAddress805X_R.Value=Globals.Tags.PickPOSAddress805X.Value;
+			Globals.Tags.PickPOSAddress805Y_R.Value=Globals.Tags.PickPOSAddress805Y.Value;
+			Globals.Tags.PickPOSAddress806X_R.Value=Globals.Tags.PickPOSAddress807X.Value;
+			Globals.Tags.PickPOSAddress806Y_R.Value=Globals.Tags.PickPOSAddress807Y.Value;
+			Globals.Tags.PickPOSAddress808X_R.Value=Globals.Tags.PickPOSAddress808X.Value;
+			Globals.Tags.PickPOSAddress808Y_R.Value=Globals.Tags.PickPOSAddress808Y.Value;
+			Globals.Tags.PickPOSAddress809X_R.Value=Globals.Tags.PickPOSAddress809X.Value;
+			Globals.Tags.PickPOSAddress809Y_R.Value=Globals.Tags.PickPOSAddress809Y.Value;
+			
+			Globals.Tags.PickPOSAddress900X_R.Value=Globals.Tags.PickPOSAddress900X.Value;
+			Globals.Tags.PickPOSAddress900Y_R.Value=Globals.Tags.PickPOSAddress900Y.Value;
+			Globals.Tags.PickPOSAddress901X_R.Value=Globals.Tags.PickPOSAddress901X.Value;
+			Globals.Tags.PickPOSAddress901Y_R.Value=Globals.Tags.PickPOSAddress901Y.Value;
+			Globals.Tags.PickPOSAddress902X_R.Value=Globals.Tags.PickPOSAddress902X.Value;
+			Globals.Tags.PickPOSAddress902Y_R.Value=Globals.Tags.PickPOSAddress902Y.Value;
+			Globals.Tags.PickPOSAddress903X_R.Value=Globals.Tags.PickPOSAddress903X.Value;
+			Globals.Tags.PickPOSAddress903Y_R.Value=Globals.Tags.PickPOSAddress903Y.Value;
+			Globals.Tags.PickPOSAddress904X_R.Value=Globals.Tags.PickPOSAddress904X.Value;
+			Globals.Tags.PickPOSAddress904Y_R.Value=Globals.Tags.PickPOSAddress904Y.Value;
+			Globals.Tags.PickPOSAddress905X_R.Value=Globals.Tags.PickPOSAddress905X.Value;
+			Globals.Tags.PickPOSAddress905Y_R.Value=Globals.Tags.PickPOSAddress905Y.Value;
+			Globals.Tags.PickPOSAddress906X_R.Value=Globals.Tags.PickPOSAddress907X.Value;
+			Globals.Tags.PickPOSAddress906Y_R.Value=Globals.Tags.PickPOSAddress907Y.Value;
+			Globals.Tags.PickPOSAddress908X_R.Value=Globals.Tags.PickPOSAddress908X.Value;
+			Globals.Tags.PickPOSAddress908Y_R.Value=Globals.Tags.PickPOSAddress908Y.Value;
+			Globals.Tags.PickPOSAddress909X_R.Value=Globals.Tags.PickPOSAddress909X.Value;
+			Globals.Tags.PickPOSAddress909Y_R.Value=Globals.Tags.PickPOSAddress909Y.Value;
+		}
+		
+		void bAct_RestoreData_Click(System.Object sender, System.EventArgs e)
+		{
+			Globals.Tags.PickPOSAddress000X.Value=Globals.Tags.PickPOSAddress000X_R.Value;
+			Globals.Tags.PickPOSAddress000X.Value=Globals.Tags.PickPOSAddress000X_R.Value;
+			Globals.Tags.PickPOSAddress000Y.Value=Globals.Tags.PickPOSAddress000Y_R.Value;
+			Globals.Tags.PickPOSAddress001X.Value=Globals.Tags.PickPOSAddress001X_R.Value;
+			Globals.Tags.PickPOSAddress001Y.Value=Globals.Tags.PickPOSAddress001Y_R.Value;
+			Globals.Tags.PickPOSAddress002X.Value=Globals.Tags.PickPOSAddress002X_R.Value;
+			Globals.Tags.PickPOSAddress002Y.Value=Globals.Tags.PickPOSAddress002Y_R.Value;
+			Globals.Tags.PickPOSAddress003X.Value=Globals.Tags.PickPOSAddress003X_R.Value;
+			Globals.Tags.PickPOSAddress003Y.Value=Globals.Tags.PickPOSAddress003Y_R.Value;
+			Globals.Tags.PickPOSAddress004X.Value=Globals.Tags.PickPOSAddress004X_R.Value;
+			Globals.Tags.PickPOSAddress004Y.Value=Globals.Tags.PickPOSAddress004Y_R.Value;
+			Globals.Tags.PickPOSAddress005X.Value=Globals.Tags.PickPOSAddress005X_R.Value;
+			Globals.Tags.PickPOSAddress005Y.Value=Globals.Tags.PickPOSAddress005Y_R.Value;
+			Globals.Tags.PickPOSAddress006X.Value=Globals.Tags.PickPOSAddress007X_R.Value;
+			Globals.Tags.PickPOSAddress006Y.Value=Globals.Tags.PickPOSAddress007Y_R.Value;
+			Globals.Tags.PickPOSAddress008X.Value=Globals.Tags.PickPOSAddress008X_R.Value;
+			Globals.Tags.PickPOSAddress008Y.Value=Globals.Tags.PickPOSAddress008Y_R.Value;
+			Globals.Tags.PickPOSAddress009X.Value=Globals.Tags.PickPOSAddress009X_R.Value;
+			Globals.Tags.PickPOSAddress009Y.Value=Globals.Tags.PickPOSAddress009Y_R.Value;
+			
+			Globals.Tags.PickPOSAddress100X.Value=Globals.Tags.PickPOSAddress100X_R.Value;
+			Globals.Tags.PickPOSAddress100Y.Value=Globals.Tags.PickPOSAddress100Y_R.Value;
+			Globals.Tags.PickPOSAddress101X.Value=Globals.Tags.PickPOSAddress101X_R.Value;
+			Globals.Tags.PickPOSAddress101Y.Value=Globals.Tags.PickPOSAddress101Y_R.Value;
+			Globals.Tags.PickPOSAddress102X.Value=Globals.Tags.PickPOSAddress102X_R.Value;
+			Globals.Tags.PickPOSAddress102Y.Value=Globals.Tags.PickPOSAddress102Y_R.Value;
+			Globals.Tags.PickPOSAddress103X.Value=Globals.Tags.PickPOSAddress103X_R.Value;
+			Globals.Tags.PickPOSAddress103Y.Value=Globals.Tags.PickPOSAddress103Y_R.Value;
+			Globals.Tags.PickPOSAddress104X.Value=Globals.Tags.PickPOSAddress104X_R.Value;
+			Globals.Tags.PickPOSAddress104Y.Value=Globals.Tags.PickPOSAddress104Y_R.Value;
+			Globals.Tags.PickPOSAddress105X.Value=Globals.Tags.PickPOSAddress105X_R.Value;
+			Globals.Tags.PickPOSAddress105Y.Value=Globals.Tags.PickPOSAddress105Y_R.Value;
+			Globals.Tags.PickPOSAddress106X.Value=Globals.Tags.PickPOSAddress107X_R.Value;
+			Globals.Tags.PickPOSAddress106Y.Value=Globals.Tags.PickPOSAddress107Y_R.Value;
+			Globals.Tags.PickPOSAddress108X.Value=Globals.Tags.PickPOSAddress108X_R.Value;
+			Globals.Tags.PickPOSAddress108Y.Value=Globals.Tags.PickPOSAddress108Y_R.Value;
+			Globals.Tags.PickPOSAddress109X.Value=Globals.Tags.PickPOSAddress109X_R.Value;
+			Globals.Tags.PickPOSAddress109Y.Value=Globals.Tags.PickPOSAddress109Y_R.Value;
+			
+			Globals.Tags.PickPOSAddress200X.Value=Globals.Tags.PickPOSAddress200X_R.Value;
+			Globals.Tags.PickPOSAddress200Y.Value=Globals.Tags.PickPOSAddress200Y_R.Value;
+			Globals.Tags.PickPOSAddress201X.Value=Globals.Tags.PickPOSAddress201X_R.Value;
+			Globals.Tags.PickPOSAddress201Y.Value=Globals.Tags.PickPOSAddress201Y_R.Value;
+			Globals.Tags.PickPOSAddress202X.Value=Globals.Tags.PickPOSAddress202X_R.Value;
+			Globals.Tags.PickPOSAddress202Y.Value=Globals.Tags.PickPOSAddress202Y_R.Value;
+			Globals.Tags.PickPOSAddress203X.Value=Globals.Tags.PickPOSAddress203X_R.Value;
+			Globals.Tags.PickPOSAddress203Y.Value=Globals.Tags.PickPOSAddress203Y_R.Value;
+			Globals.Tags.PickPOSAddress204X.Value=Globals.Tags.PickPOSAddress204X_R.Value;
+			Globals.Tags.PickPOSAddress204Y.Value=Globals.Tags.PickPOSAddress204Y_R.Value;
+			Globals.Tags.PickPOSAddress205X.Value=Globals.Tags.PickPOSAddress205X_R.Value;
+			Globals.Tags.PickPOSAddress205Y.Value=Globals.Tags.PickPOSAddress205Y_R.Value;
+			Globals.Tags.PickPOSAddress206X.Value=Globals.Tags.PickPOSAddress207X_R.Value;
+			Globals.Tags.PickPOSAddress206Y.Value=Globals.Tags.PickPOSAddress207Y_R.Value;
+			Globals.Tags.PickPOSAddress208X.Value=Globals.Tags.PickPOSAddress208X_R.Value;
+			Globals.Tags.PickPOSAddress208Y.Value=Globals.Tags.PickPOSAddress208Y_R.Value;
+			Globals.Tags.PickPOSAddress209X.Value=Globals.Tags.PickPOSAddress209X_R.Value;
+			Globals.Tags.PickPOSAddress209Y.Value=Globals.Tags.PickPOSAddress209Y_R.Value;
+			
+			Globals.Tags.PickPOSAddress300X.Value=Globals.Tags.PickPOSAddress300X_R.Value;
+			Globals.Tags.PickPOSAddress300Y.Value=Globals.Tags.PickPOSAddress300Y_R.Value;
+			Globals.Tags.PickPOSAddress301X.Value=Globals.Tags.PickPOSAddress301X_R.Value;
+			Globals.Tags.PickPOSAddress301Y.Value=Globals.Tags.PickPOSAddress301Y_R.Value;
+			Globals.Tags.PickPOSAddress302X.Value=Globals.Tags.PickPOSAddress302X_R.Value;
+			Globals.Tags.PickPOSAddress302Y.Value=Globals.Tags.PickPOSAddress302Y_R.Value;
+			Globals.Tags.PickPOSAddress303X.Value=Globals.Tags.PickPOSAddress303X_R.Value;
+			Globals.Tags.PickPOSAddress303Y.Value=Globals.Tags.PickPOSAddress303Y_R.Value;
+			Globals.Tags.PickPOSAddress304X.Value=Globals.Tags.PickPOSAddress304X_R.Value;
+			Globals.Tags.PickPOSAddress304Y.Value=Globals.Tags.PickPOSAddress304Y_R.Value;
+			Globals.Tags.PickPOSAddress305X.Value=Globals.Tags.PickPOSAddress305X_R.Value;
+			Globals.Tags.PickPOSAddress305Y.Value=Globals.Tags.PickPOSAddress305Y_R.Value;
+			Globals.Tags.PickPOSAddress306X.Value=Globals.Tags.PickPOSAddress307X_R.Value;
+			Globals.Tags.PickPOSAddress306Y.Value=Globals.Tags.PickPOSAddress307Y_R.Value;
+			Globals.Tags.PickPOSAddress308X.Value=Globals.Tags.PickPOSAddress308X_R.Value;
+			Globals.Tags.PickPOSAddress308Y.Value=Globals.Tags.PickPOSAddress308Y_R.Value;
+			Globals.Tags.PickPOSAddress309X.Value=Globals.Tags.PickPOSAddress309X_R.Value;
+			Globals.Tags.PickPOSAddress309Y.Value=Globals.Tags.PickPOSAddress309Y_R.Value;
+			
+			Globals.Tags.PickPOSAddress400X.Value=Globals.Tags.PickPOSAddress400X_R.Value;
+			Globals.Tags.PickPOSAddress400Y.Value=Globals.Tags.PickPOSAddress400Y_R.Value;
+			Globals.Tags.PickPOSAddress401X.Value=Globals.Tags.PickPOSAddress401X_R.Value;
+			Globals.Tags.PickPOSAddress401Y.Value=Globals.Tags.PickPOSAddress401Y_R.Value;
+			Globals.Tags.PickPOSAddress402X.Value=Globals.Tags.PickPOSAddress402X_R.Value;
+			Globals.Tags.PickPOSAddress402Y.Value=Globals.Tags.PickPOSAddress402Y_R.Value;
+			Globals.Tags.PickPOSAddress403X.Value=Globals.Tags.PickPOSAddress403X_R.Value;
+			Globals.Tags.PickPOSAddress403Y.Value=Globals.Tags.PickPOSAddress403Y_R.Value;
+			Globals.Tags.PickPOSAddress404X.Value=Globals.Tags.PickPOSAddress404X_R.Value;
+			Globals.Tags.PickPOSAddress404Y.Value=Globals.Tags.PickPOSAddress404Y_R.Value;
+			Globals.Tags.PickPOSAddress405X.Value=Globals.Tags.PickPOSAddress405X_R.Value;
+			Globals.Tags.PickPOSAddress405Y.Value=Globals.Tags.PickPOSAddress405Y_R.Value;
+			Globals.Tags.PickPOSAddress406X.Value=Globals.Tags.PickPOSAddress407X_R.Value;
+			Globals.Tags.PickPOSAddress406Y.Value=Globals.Tags.PickPOSAddress407Y_R.Value;
+			Globals.Tags.PickPOSAddress408X.Value=Globals.Tags.PickPOSAddress408X_R.Value;
+			Globals.Tags.PickPOSAddress408Y.Value=Globals.Tags.PickPOSAddress408Y_R.Value;
+			Globals.Tags.PickPOSAddress409X.Value=Globals.Tags.PickPOSAddress409X_R.Value;
+			Globals.Tags.PickPOSAddress409Y.Value=Globals.Tags.PickPOSAddress409Y_R.Value;
+			
+			Globals.Tags.PickPOSAddress500X.Value=Globals.Tags.PickPOSAddress500X_R.Value;
+			Globals.Tags.PickPOSAddress500Y.Value=Globals.Tags.PickPOSAddress500Y_R.Value;
+			Globals.Tags.PickPOSAddress501X.Value=Globals.Tags.PickPOSAddress501X_R.Value;
+			Globals.Tags.PickPOSAddress501Y.Value=Globals.Tags.PickPOSAddress501Y_R.Value;
+			Globals.Tags.PickPOSAddress502X.Value=Globals.Tags.PickPOSAddress502X_R.Value;
+			Globals.Tags.PickPOSAddress502Y.Value=Globals.Tags.PickPOSAddress502Y_R.Value;
+			Globals.Tags.PickPOSAddress503X.Value=Globals.Tags.PickPOSAddress503X_R.Value;
+			Globals.Tags.PickPOSAddress503Y.Value=Globals.Tags.PickPOSAddress503Y_R.Value;
+			Globals.Tags.PickPOSAddress504X.Value=Globals.Tags.PickPOSAddress504X_R.Value;
+			Globals.Tags.PickPOSAddress504Y.Value=Globals.Tags.PickPOSAddress504Y_R.Value;
+			Globals.Tags.PickPOSAddress505X.Value=Globals.Tags.PickPOSAddress505X_R.Value;
+			Globals.Tags.PickPOSAddress505Y.Value=Globals.Tags.PickPOSAddress505Y_R.Value;
+			Globals.Tags.PickPOSAddress506X.Value=Globals.Tags.PickPOSAddress507X_R.Value;
+			Globals.Tags.PickPOSAddress506Y.Value=Globals.Tags.PickPOSAddress507Y_R.Value;
+			Globals.Tags.PickPOSAddress508X.Value=Globals.Tags.PickPOSAddress508X_R.Value;
+			Globals.Tags.PickPOSAddress508Y.Value=Globals.Tags.PickPOSAddress508Y_R.Value;
+			Globals.Tags.PickPOSAddress509X.Value=Globals.Tags.PickPOSAddress509X_R.Value;
+			Globals.Tags.PickPOSAddress509Y.Value=Globals.Tags.PickPOSAddress509Y_R.Value;
+			
+			Globals.Tags.PickPOSAddress600X.Value=Globals.Tags.PickPOSAddress600X_R.Value;
+			Globals.Tags.PickPOSAddress600Y.Value=Globals.Tags.PickPOSAddress600Y_R.Value;
+			Globals.Tags.PickPOSAddress601X.Value=Globals.Tags.PickPOSAddress601X_R.Value;
+			Globals.Tags.PickPOSAddress601Y.Value=Globals.Tags.PickPOSAddress601Y_R.Value;
+			Globals.Tags.PickPOSAddress602X.Value=Globals.Tags.PickPOSAddress602X_R.Value;
+			Globals.Tags.PickPOSAddress602Y.Value=Globals.Tags.PickPOSAddress602Y_R.Value;
+			Globals.Tags.PickPOSAddress603X.Value=Globals.Tags.PickPOSAddress603X_R.Value;
+			Globals.Tags.PickPOSAddress603Y.Value=Globals.Tags.PickPOSAddress603Y_R.Value;
+			Globals.Tags.PickPOSAddress604X.Value=Globals.Tags.PickPOSAddress604X_R.Value;
+			Globals.Tags.PickPOSAddress604Y.Value=Globals.Tags.PickPOSAddress604Y_R.Value;
+			Globals.Tags.PickPOSAddress605X.Value=Globals.Tags.PickPOSAddress605X_R.Value;
+			Globals.Tags.PickPOSAddress605Y.Value=Globals.Tags.PickPOSAddress605Y_R.Value;
+			Globals.Tags.PickPOSAddress606X.Value=Globals.Tags.PickPOSAddress607X_R.Value;
+			Globals.Tags.PickPOSAddress606Y.Value=Globals.Tags.PickPOSAddress607Y_R.Value;
+			Globals.Tags.PickPOSAddress608X.Value=Globals.Tags.PickPOSAddress608X_R.Value;
+			Globals.Tags.PickPOSAddress608Y.Value=Globals.Tags.PickPOSAddress608Y_R.Value;
+			Globals.Tags.PickPOSAddress609X.Value=Globals.Tags.PickPOSAddress609X_R.Value;
+			Globals.Tags.PickPOSAddress609Y.Value=Globals.Tags.PickPOSAddress609Y_R.Value;
+			
+			Globals.Tags.PickPOSAddress700X.Value=Globals.Tags.PickPOSAddress700X_R.Value;
+			Globals.Tags.PickPOSAddress700Y.Value=Globals.Tags.PickPOSAddress700Y_R.Value;
+			Globals.Tags.PickPOSAddress701X.Value=Globals.Tags.PickPOSAddress701X_R.Value;
+			Globals.Tags.PickPOSAddress701Y.Value=Globals.Tags.PickPOSAddress701Y_R.Value;
+			Globals.Tags.PickPOSAddress702X.Value=Globals.Tags.PickPOSAddress702X_R.Value;
+			Globals.Tags.PickPOSAddress702Y.Value=Globals.Tags.PickPOSAddress702Y_R.Value;
+			Globals.Tags.PickPOSAddress703X.Value=Globals.Tags.PickPOSAddress703X_R.Value;
+			Globals.Tags.PickPOSAddress703Y.Value=Globals.Tags.PickPOSAddress703Y_R.Value;
+			Globals.Tags.PickPOSAddress704X.Value=Globals.Tags.PickPOSAddress704X_R.Value;
+			Globals.Tags.PickPOSAddress704Y.Value=Globals.Tags.PickPOSAddress704Y_R.Value;
+			Globals.Tags.PickPOSAddress705X.Value=Globals.Tags.PickPOSAddress705X_R.Value;
+			Globals.Tags.PickPOSAddress705Y.Value=Globals.Tags.PickPOSAddress705Y_R.Value;
+			Globals.Tags.PickPOSAddress706X.Value=Globals.Tags.PickPOSAddress707X_R.Value;
+			Globals.Tags.PickPOSAddress706Y.Value=Globals.Tags.PickPOSAddress707Y_R.Value;
+			Globals.Tags.PickPOSAddress708X.Value=Globals.Tags.PickPOSAddress708X_R.Value;
+			Globals.Tags.PickPOSAddress708Y.Value=Globals.Tags.PickPOSAddress708Y_R.Value;
+			Globals.Tags.PickPOSAddress709X.Value=Globals.Tags.PickPOSAddress709X_R.Value;
+			Globals.Tags.PickPOSAddress709Y.Value=Globals.Tags.PickPOSAddress709Y_R.Value;
+			
+			Globals.Tags.PickPOSAddress800X.Value=Globals.Tags.PickPOSAddress800X_R.Value;
+			Globals.Tags.PickPOSAddress800Y.Value=Globals.Tags.PickPOSAddress800Y_R.Value;
+			Globals.Tags.PickPOSAddress801X.Value=Globals.Tags.PickPOSAddress801X_R.Value;
+			Globals.Tags.PickPOSAddress801Y.Value=Globals.Tags.PickPOSAddress801Y_R.Value;
+			Globals.Tags.PickPOSAddress802X.Value=Globals.Tags.PickPOSAddress802X_R.Value;
+			Globals.Tags.PickPOSAddress802Y.Value=Globals.Tags.PickPOSAddress802Y_R.Value;
+			Globals.Tags.PickPOSAddress803X.Value=Globals.Tags.PickPOSAddress803X_R.Value;
+			Globals.Tags.PickPOSAddress803Y.Value=Globals.Tags.PickPOSAddress803Y_R.Value;
+			Globals.Tags.PickPOSAddress804X.Value=Globals.Tags.PickPOSAddress804X_R.Value;
+			Globals.Tags.PickPOSAddress804Y.Value=Globals.Tags.PickPOSAddress804Y_R.Value;
+			Globals.Tags.PickPOSAddress805X.Value=Globals.Tags.PickPOSAddress805X_R.Value;
+			Globals.Tags.PickPOSAddress805Y.Value=Globals.Tags.PickPOSAddress805Y_R.Value;
+			Globals.Tags.PickPOSAddress806X.Value=Globals.Tags.PickPOSAddress807X_R.Value;
+			Globals.Tags.PickPOSAddress806Y.Value=Globals.Tags.PickPOSAddress807Y_R.Value;
+			Globals.Tags.PickPOSAddress808X.Value=Globals.Tags.PickPOSAddress808X_R.Value;
+			Globals.Tags.PickPOSAddress808Y.Value=Globals.Tags.PickPOSAddress808Y_R.Value;
+			Globals.Tags.PickPOSAddress809X.Value=Globals.Tags.PickPOSAddress809X_R.Value;
+			Globals.Tags.PickPOSAddress809Y.Value=Globals.Tags.PickPOSAddress809Y_R.Value;
+			
+			Globals.Tags.PickPOSAddress900X.Value=Globals.Tags.PickPOSAddress900X_R.Value;
+			Globals.Tags.PickPOSAddress900Y.Value=Globals.Tags.PickPOSAddress900Y_R.Value;
+			Globals.Tags.PickPOSAddress901X.Value=Globals.Tags.PickPOSAddress901X_R.Value;
+			Globals.Tags.PickPOSAddress901Y.Value=Globals.Tags.PickPOSAddress901Y_R.Value;
+			Globals.Tags.PickPOSAddress902X.Value=Globals.Tags.PickPOSAddress902X_R.Value;
+			Globals.Tags.PickPOSAddress902Y.Value=Globals.Tags.PickPOSAddress902Y_R.Value;
+			Globals.Tags.PickPOSAddress903X.Value=Globals.Tags.PickPOSAddress903X_R.Value;
+			Globals.Tags.PickPOSAddress903Y.Value=Globals.Tags.PickPOSAddress903Y_R.Value;
+			Globals.Tags.PickPOSAddress904X.Value=Globals.Tags.PickPOSAddress904X_R.Value;
+			Globals.Tags.PickPOSAddress904Y.Value=Globals.Tags.PickPOSAddress904Y_R.Value;
+			Globals.Tags.PickPOSAddress905X.Value=Globals.Tags.PickPOSAddress905X_R.Value;
+			Globals.Tags.PickPOSAddress905Y.Value=Globals.Tags.PickPOSAddress905Y_R.Value;
+			Globals.Tags.PickPOSAddress906X.Value=Globals.Tags.PickPOSAddress907X_R.Value;
+			Globals.Tags.PickPOSAddress906Y.Value=Globals.Tags.PickPOSAddress907Y_R.Value;
+			Globals.Tags.PickPOSAddress908X.Value=Globals.Tags.PickPOSAddress908X_R.Value;
+			Globals.Tags.PickPOSAddress908Y.Value=Globals.Tags.PickPOSAddress908Y_R.Value;
+			Globals.Tags.PickPOSAddress909X.Value=Globals.Tags.PickPOSAddress909X_R.Value;
+			Globals.Tags.PickPOSAddress909Y.Value=Globals.Tags.PickPOSAddress909Y_R.Value;
+		}
+	}
+}

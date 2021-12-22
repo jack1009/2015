@@ -1,0 +1,16 @@
+<diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+  <DSLABEL>
+    <D_Label diffgr:id="D_Label1" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+      <iID>1</iID>
+      <szLabelName>   1   2修改台全要求增加6個recipe</szLabelName>
+      <iEditor>0</iEditor>
+      <dtCreateTime>2021-09-24T10:24:54.6659494+08:00</dtCreateTime>
+      <szComment />
+      <szEditorName />
+    </D_Label>
+    <D_DBVersion diffgr:id="D_DBVersion2" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+      <iSupportVersion>1</iSupportVersion>
+      <iCreateVersion>1</iCreateVersion>
+    </D_DBVersion>
+  </DSLABEL>
+</diffgr:diffgram>

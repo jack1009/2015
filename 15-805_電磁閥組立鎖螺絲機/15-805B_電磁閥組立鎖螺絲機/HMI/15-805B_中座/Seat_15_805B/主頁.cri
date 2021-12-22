@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.30.24.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items>
+        <Item xsi:type="AlarmViewerItem" Target="主頁.AlarmViewer" ServerID="" ServerPort="0" MaximumAlarmEvents="100" />
+      </Items>
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="主頁.bPG_Tray" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.bPG_Seat" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.bPG_Main" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.bAct_ResetPB_Main" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.bRunPB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Text" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Text1" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Text2" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.AlarmViewer" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Button" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Button15" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.bAct_DataRestorePB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.bAct_DataBackupPB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Button1" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Group7.numIndexX" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Group7.numIndexY" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.AnalogNumeric4" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.AnalogNumeric9" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="主頁.Button9" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Tray" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Tray" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Tray" TargetProperty="Actions" Source="Tags.ManchineRunStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Seat" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Seat" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Seat" TargetProperty="Actions" Source="Tags.ManchineRunStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Main" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Main" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bAct_ResetPB_Main" TargetProperty="Actions" Source="Tags.ResetPB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bAct_ResetPB_Main" TargetProperty="Actions" Source="Tags.ResetPB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bAct_ResetPB_Main" TargetProperty="Actions" Source="Tags.ResetPB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item Target="主頁.bAct_ResetPB_Main" TargetProperty="Value" Source="Tags.ResetPB" />
+        <Item Target="主頁.bAct_ResetPB_Main" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="主頁.bAct_ResetPB_Main" TargetProperty="Background" Source="Tags.ResetPB" />
+        <Item xsi:type="ActionItem" Target="主頁.bRunPB" TargetProperty="Actions" Source="Tags.ManchineRunStatus" Event="Click" Action="Toggle Tag" Param="" />
+        <Item Target="主頁.bRunPB" TargetProperty="Value" Source="Tags.ManchineRunStatus" />
+        <Item Target="主頁.bRunPB" TargetProperty="TextValue" Source="Tags.ManchineRunStatus" />
+        <Item Target="主頁.bRunPB" TargetProperty="Background" Source="Tags.ManchineRunStatus" />
+        <Item Target="主頁.Ellipse" TargetProperty="Fill" Source="Tags.CheckOring_Square_LS" />
+        <Item Target="主頁.Ellipse1" TargetProperty="Fill" Source="Tags.Check_Piston_LS" />
+        <Item Target="主頁.Ellipse2" TargetProperty="Fill" Source="Tags.CheckOring_Circle_LS" />
+        <Item xsi:type="ActionItem" Target="主頁.Button" TargetProperty="Actions" Source="Tags.ManchineRunStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item Target="主頁.bAct_DataRestorePB" TargetProperty="Value" Source="Tags.DataRestorePB" />
+        <Item Target="主頁.bAct_DataRestorePB" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="主頁.bAct_DataRestorePB" TargetProperty="Background" Source="Tags.DataRestorePB" />
+        <Item xsi:type="ActionItem" Target="主頁.bAct_DataBackupPB" TargetProperty="Actions" Source="Tags.DataBackupPB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bAct_DataBackupPB" TargetProperty="Actions" Source="Tags.DataBackupPB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bAct_DataBackupPB" TargetProperty="Actions" Source="Tags.DataBackupPB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item Target="主頁.bAct_DataBackupPB" TargetProperty="Value" Source="Tags.DataBackupPB" />
+        <Item Target="主頁.bAct_DataBackupPB" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="主頁.bAct_DataBackupPB" TargetProperty="Background" Source="Tags.DataBackupPB" />
+        <Item xsi:type="ActionItem" Target="主頁.Button1" TargetProperty="Actions" Source="Tags.SW_OringCheckDisable" Event="Click" Action="Toggle Tag" Param="" />
+        <Item Target="主頁.Button1" TargetProperty="Value" Source="Tags.SW_OringCheckDisable" />
+        <Item Target="主頁.Button1" TargetProperty="TextValue" Source="Tags.SW_OringCheckDisable" />
+        <Item Target="主頁.Button1" TargetProperty="Background" Source="Tags.SW_OringCheckDisable" />
+        <Item Target="主頁.Group7.numIndexX" TargetProperty="Value" Source="Tags.PickPOS_IndexX" />
+        <Item Target="主頁.Group7.numIndexY" TargetProperty="Value" Source="Tags.PickPOS_IndexY" />
+        <Item Target="主頁.AnalogNumeric4" TargetProperty="Value" Source="Tags.HMI_BZStopTime" />
+        <Item Target="主頁.AnalogNumeric9" TargetProperty="Value" Source="Tags.HMI_BZRestartTime" />
+        <Item xsi:type="ActionItem" Target="主頁.Button9" TargetProperty="Actions" Source="Tags.HMIPB_BZStop" Event="Click" Action="Toggle Tag" Param="" />
+        <Item Target="主頁.Button9" TargetProperty="Value" Source="Tags.HMIPB_BZStop" />
+        <Item Target="主頁.Button9" TargetProperty="TextValue" Source="Tags.HMIPB_BZStop" />
+        <Item Target="主頁.Button9" TargetProperty="Background" Source="Tags.HMIPB_BZStop" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Tray" TargetProperty="Actions" Source="手動_取放盤" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Seat" TargetProperty="Actions" Source="手動_取放料" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Main" TargetProperty="Actions" Source="主頁" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="主頁.Button" TargetProperty="Actions" Source="手動選擇" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>主頁</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>23</ObjectsCount>
+          <ScreenName>主頁</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Tray" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Tray" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Tray" TargetProperty="Actions" Source="Tags.ManchineRunStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Seat" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Seat" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Seat" TargetProperty="Actions" Source="Tags.ManchineRunStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Main" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bPG_Main" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bAct_ResetPB_Main" TargetProperty="Actions" Source="Tags.ResetPB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bAct_ResetPB_Main" TargetProperty="Actions" Source="Tags.ResetPB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bAct_ResetPB_Main" TargetProperty="Actions" Source="Tags.ResetPB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bRunPB" TargetProperty="Actions" Source="Tags.ManchineRunStatus" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.Button" TargetProperty="Actions" Source="Tags.ManchineRunStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bAct_DataBackupPB" TargetProperty="Actions" Source="Tags.DataBackupPB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bAct_DataBackupPB" TargetProperty="Actions" Source="Tags.DataBackupPB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.bAct_DataBackupPB" TargetProperty="Actions" Source="Tags.DataBackupPB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.Button1" TargetProperty="Actions" Source="Tags.SW_OringCheckDisable" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="主頁.Button9" TargetProperty="Actions" Source="Tags.HMIPB_BZStop" Event="Click" Action="Toggle Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

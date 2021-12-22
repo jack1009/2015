@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.20.2296.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="手動_取放料.bPG_Seat" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.bPG_Main" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.bPG_Tray" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.bAct_ResetPB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group1.bAct_AxisXFWPB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group1.bAct_AxisXBWPB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group1.bAct_AxisYBWPB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group1.bAct_AxisYFWPB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group3.AnalogNumeric2" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group3.AnalogNumeric7" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group3.AnalogNumeric" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group5.numCurrentAddressY" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group5.numCurrentAddressX" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group7.AnalogNumeric9" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group7.AnalogNumeric8" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group7.AnalogNumeric6" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group7.AnalogNumeric5" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group7.AnalogNumeric3" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group7.AnalogNumeric4" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.bSet_PosSetPB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.AnalogNumeric1" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.AnalogNumeric10" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group8.numIndexY" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group8.numIndexX" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group8.numAddressY" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group8.numAddressX" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group.bAct_GoPickPosPB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group.bAct_GoRejectPosPB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group.bAct_LoadTrayPB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group.bAct_GoCheckPosPB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group4.bAct_AxisXYHomePB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group4.bAct_SpeedLowHigh" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group4.bAct_ServoOn" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group2.bAct_TurnBackPB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group2.bAct_CheckPB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group2.bAct_FixPB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group2.bAct_TurnPB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group2.bAct_UpDownPB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.Group2.bAct_ClipPB" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+        <Item Target="手動_取放料.bPG_TimeSetting" TargetProperty="FontFamily" Source="MINGLIU.TTC" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="手動_取放料.bPG_Seat" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bPG_Seat" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bPG_Main" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bPG_Main" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bPG_Main" TargetProperty="Actions" Source="Tags.CopyFileDataPB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bPG_Main" TargetProperty="Actions" Source="Tags.CopyFileDataPB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bPG_Main" TargetProperty="Actions" Source="Tags.CopyFileDataPB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bPG_Tray" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bPG_Tray" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bAct_ResetPB" TargetProperty="Actions" Source="Tags.AllServoResetPB_XY" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bAct_ResetPB" TargetProperty="Actions" Source="Tags.AllServoResetPB_XY" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bAct_ResetPB" TargetProperty="Actions" Source="Tags.AllServoResetPB_XY" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放料.bAct_ResetPB" TargetProperty="Value" Source="Tags.AllServoResetPB_XY" />
+        <Item Target="手動_取放料.bAct_ResetPB" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="手動_取放料.bAct_ResetPB" TargetProperty="Background" Source="Tags.AllServoResetPB_XY" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group1.bAct_AxisXFWPB" TargetProperty="Actions" Source="Tags.ServoJogForwardPB_AxisX" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group1.bAct_AxisXFWPB" TargetProperty="Actions" Source="Tags.ServoJogForwardPB_AxisX" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group1.bAct_AxisXFWPB" TargetProperty="Actions" Source="Tags.ServoJogForwardPB_AxisX" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放料.Group1.bAct_AxisXFWPB" TargetProperty="Value" Source="Tags.ServoJogForwardPB_AxisX" />
+        <Item Target="手動_取放料.Group1.bAct_AxisXFWPB" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="手動_取放料.Group1.bAct_AxisXFWPB" TargetProperty="Background" Source="Tags.ServoJogForwardPB_AxisX" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group1.bAct_AxisXBWPB" TargetProperty="Actions" Source="Tags.ServoJogBackwardsPB_AxisX" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group1.bAct_AxisXBWPB" TargetProperty="Actions" Source="Tags.ServoJogBackwardsPB_AxisX" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group1.bAct_AxisXBWPB" TargetProperty="Actions" Source="Tags.ServoJogBackwardsPB_AxisX" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放料.Group1.bAct_AxisXBWPB" TargetProperty="Value" Source="Tags.ServoJogBackwardsPB_AxisX" />
+        <Item Target="手動_取放料.Group1.bAct_AxisXBWPB" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="手動_取放料.Group1.bAct_AxisXBWPB" TargetProperty="Background" Source="Tags.ServoJogBackwardsPB_AxisX" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group1.bAct_AxisYBWPB" TargetProperty="Actions" Source="Tags.ServoJogBackwardsPB_AxisY" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group1.bAct_AxisYBWPB" TargetProperty="Actions" Source="Tags.ServoJogBackwardsPB_AxisY" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group1.bAct_AxisYBWPB" TargetProperty="Actions" Source="Tags.ServoJogBackwardsPB_AxisY" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放料.Group1.bAct_AxisYBWPB" TargetProperty="Value" Source="Tags.ServoJogBackwardsPB_AxisY" />
+        <Item Target="手動_取放料.Group1.bAct_AxisYBWPB" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="手動_取放料.Group1.bAct_AxisYBWPB" TargetProperty="Background" Source="Tags.ServoJogBackwardsPB_AxisY" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group1.bAct_AxisYFWPB" TargetProperty="Actions" Source="Tags.ServoJogForwardPB_AxisY" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group1.bAct_AxisYFWPB" TargetProperty="Actions" Source="Tags.ServoJogForwardPB_AxisY" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group1.bAct_AxisYFWPB" TargetProperty="Actions" Source="Tags.ServoJogForwardPB_AxisY" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放料.Group1.bAct_AxisYFWPB" TargetProperty="Value" Source="Tags.ServoJogForwardPB_AxisY" />
+        <Item Target="手動_取放料.Group1.bAct_AxisYFWPB" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="手動_取放料.Group1.bAct_AxisYFWPB" TargetProperty="Background" Source="Tags.ServoJogForwardPB_AxisY" />
+        <Item Target="手動_取放料.Group3.AnalogNumeric2" TargetProperty="Value" Source="Tags.ServoJogSpeed_FAST" />
+        <Item Target="手動_取放料.Group3.AnalogNumeric7" TargetProperty="Value" Source="Tags.ServoJogSpeed_SLOW" />
+        <Item Target="手動_取放料.Group3.AnalogNumeric" TargetProperty="Value" Source="Tags.ServoMoveAbsSpeed_Auto" />
+        <Item Target="手動_取放料.Group5.numCurrentAddressY" TargetProperty="Value" Source="Tags.CurrentPostion_AxisY" />
+        <Item Target="手動_取放料.Group5.numCurrentAddressX" TargetProperty="Value" Source="Tags.CurrentPostion_AxisX" />
+        <Item Target="手動_取放料.Group7.AnalogNumeric9" TargetProperty="Value" Source="Tags.RejectPOSData_AxisY" />
+        <Item Target="手動_取放料.Group7.AnalogNumeric8" TargetProperty="Value" Source="Tags.RejectPOSData_AxisX" />
+        <Item Target="手動_取放料.Group7.AnalogNumeric6" TargetProperty="Value" Source="Tags.AssemblyPOSData_AxisY" />
+        <Item Target="手動_取放料.Group7.AnalogNumeric5" TargetProperty="Value" Source="Tags.AssemblyPOSData_AxisX" />
+        <Item Target="手動_取放料.Group7.AnalogNumeric3" TargetProperty="Value" Source="Tags.CheckPOSData_AxisX" />
+        <Item Target="手動_取放料.Group7.AnalogNumeric4" TargetProperty="Value" Source="Tags.CheckPOSData_AxisY" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bSet_PosSetPB" TargetProperty="Actions" Source="Tags.PositionSetPB_AxisXY" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bSet_PosSetPB" TargetProperty="Actions" Source="Tags.PositionSetPB_AxisXY" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bSet_PosSetPB" TargetProperty="Actions" Source="Tags.PositionSetPB_AxisXY" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放料.bSet_PosSetPB" TargetProperty="Value" Source="Tags.PositionSetPB_AxisXY" />
+        <Item Target="手動_取放料.bSet_PosSetPB" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="手動_取放料.bSet_PosSetPB" TargetProperty="Background" Source="Tags.PositionSetPB_AxisXY" />
+        <Item Target="手動_取放料.AnalogNumeric1" TargetProperty="Value" Source="Tags.AddressOffset_AxisX" />
+        <Item Target="手動_取放料.AnalogNumeric10" TargetProperty="Value" Source="Tags.AddressOffset_AxisY" />
+        <Item Target="手動_取放料.Group8.numIndexY" TargetProperty="Value" Source="Tags.PickPOS_IndexY" />
+        <Item Target="手動_取放料.Group8.numIndexX" TargetProperty="Value" Source="Tags.PickPOS_IndexX" />
+        <Item Target="手動_取放料.Group8.numAddressY" TargetProperty="Value" Source="Tags.PickPOSAddress000Y" />
+        <Item Target="手動_取放料.Group8.numAddressX" TargetProperty="Value" Source="Tags.PickPOSAddress000X" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group.bAct_GoPickPosPB" TargetProperty="Actions" Source="Tags.GoPickPosPB_AxisXY" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group.bAct_GoPickPosPB" TargetProperty="Actions" Source="Tags.GoPickPosPB_AxisXY" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group.bAct_GoPickPosPB" TargetProperty="Actions" Source="Tags.GoPickPosPB_AxisXY" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放料.Group.bAct_GoPickPosPB" TargetProperty="Value" Source="Tags.GoPickPosPB_AxisXY" />
+        <Item Target="手動_取放料.Group.bAct_GoPickPosPB" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="手動_取放料.Group.bAct_GoPickPosPB" TargetProperty="Background" Source="Tags.GoPickPosPB_AxisXY" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group.bAct_GoRejectPosPB" TargetProperty="Actions" Source="Tags.GoRejectPosPB_AxisXY" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group.bAct_GoRejectPosPB" TargetProperty="Actions" Source="Tags.GoRejectPosPB_AxisXY" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group.bAct_GoRejectPosPB" TargetProperty="Actions" Source="Tags.GoRejectPosPB_AxisXY" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放料.Group.bAct_GoRejectPosPB" TargetProperty="Value" Source="Tags.GoRejectPosPB_AxisXY" />
+        <Item Target="手動_取放料.Group.bAct_GoRejectPosPB" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="手動_取放料.Group.bAct_GoRejectPosPB" TargetProperty="Background" Source="Tags.GoRejectPosPB_AxisXY" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group.bAct_LoadTrayPB" TargetProperty="Actions" Source="Tags.GoAssemPosPB_AxisXY" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group.bAct_LoadTrayPB" TargetProperty="Actions" Source="Tags.GoAssemPosPB_AxisXY" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group.bAct_LoadTrayPB" TargetProperty="Actions" Source="Tags.GoAssemPosPB_AxisXY" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放料.Group.bAct_LoadTrayPB" TargetProperty="Value" Source="Tags.GoAssemPosPB_AxisXY" />
+        <Item Target="手動_取放料.Group.bAct_LoadTrayPB" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="手動_取放料.Group.bAct_LoadTrayPB" TargetProperty="Background" Source="Tags.GoAssemPosPB_AxisXY" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group.bAct_GoCheckPosPB" TargetProperty="Actions" Source="Tags.GoCheckPosPB_AxisXY" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group.bAct_GoCheckPosPB" TargetProperty="Actions" Source="Tags.GoCheckPosPB_AxisXY" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group.bAct_GoCheckPosPB" TargetProperty="Actions" Source="Tags.GoCheckPosPB_AxisXY" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放料.Group.bAct_GoCheckPosPB" TargetProperty="Value" Source="Tags.GoCheckPosPB_AxisXY" />
+        <Item Target="手動_取放料.Group.bAct_GoCheckPosPB" TargetProperty="TextValue" Source="Tags.ServoJogForwardPB_AxisZ" />
+        <Item Target="手動_取放料.Group.bAct_GoCheckPosPB" TargetProperty="Background" Source="Tags.GoCheckPosPB_AxisXY" />
+        <Item Target="手動_取放料.Group4.bAct_AxisXYHomePB" TargetProperty="Value" Source="Tags.ServoHomePB_AxisX" />
+        <Item Target="手動_取放料.Group4.bAct_AxisXYHomePB" TargetProperty="TextValue" Source="Tags.ServoJogSpeedFastPB" />
+        <Item Target="手動_取放料.Group4.bAct_AxisXYHomePB" TargetProperty="Background" Source="Tags.ServoHomePB_AxisX" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group4.bAct_SpeedLowHigh" TargetProperty="Actions" Source="Tags.ServoJogSpeedFastPB" Event="Click" Action="Toggle Tag" Param="" />
+        <Item Target="手動_取放料.Group4.bAct_SpeedLowHigh" TargetProperty="Value" Source="Tags.ServoJogSpeedFastPB" />
+        <Item Target="手動_取放料.Group4.bAct_SpeedLowHigh" TargetProperty="TextValue" Source="Tags.ServoJogSpeedFastPB" />
+        <Item Target="手動_取放料.Group4.bAct_SpeedLowHigh" TargetProperty="Background" Source="Tags.ServoJogSpeedFastPB" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group4.bAct_ServoOn" TargetProperty="Actions" Source="Tags.AllServoOnPB" Event="Click" Action="Toggle Tag" Param="" />
+        <Item Target="手動_取放料.Group4.bAct_ServoOn" TargetProperty="Value" Source="Tags.AllServoOnPB" />
+        <Item Target="手動_取放料.Group4.bAct_ServoOn" TargetProperty="TextValue" Source="Tags.AllServoOnPB" />
+        <Item Target="手動_取放料.Group4.bAct_ServoOn" TargetProperty="Background" Source="Tags.AllServoOnPB" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_TurnBackPB" TargetProperty="Actions" Source="Tags.TurnBack_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_TurnBackPB" TargetProperty="Actions" Source="Tags.TurnBack_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_TurnBackPB" TargetProperty="Actions" Source="Tags.TurnBack_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放料.Group2.bAct_TurnBackPB" TargetProperty="Value" Source="Tags.TurnBack_PB" />
+        <Item Target="手動_取放料.Group2.bAct_TurnBackPB" TargetProperty="Background" Source="Tags.TurnBack_PB" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_CheckPB" TargetProperty="Actions" Source="Tags.Check_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_CheckPB" TargetProperty="Actions" Source="Tags.Check_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_CheckPB" TargetProperty="Actions" Source="Tags.Check_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放料.Group2.bAct_CheckPB" TargetProperty="Value" Source="Tags.Check_PB" />
+        <Item Target="手動_取放料.Group2.bAct_CheckPB" TargetProperty="Background" Source="Tags.Check_SOL" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_FixPB" TargetProperty="Actions" Source="Tags.Fix_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_FixPB" TargetProperty="Actions" Source="Tags.Fix_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_FixPB" TargetProperty="Actions" Source="Tags.Fix_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放料.Group2.bAct_FixPB" TargetProperty="Value" Source="Tags.Fix_PB" />
+        <Item Target="手動_取放料.Group2.bAct_FixPB" TargetProperty="Background" Source="Tags.Fix_SOL" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_TurnPB" TargetProperty="Actions" Source="Tags.Turn_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_TurnPB" TargetProperty="Actions" Source="Tags.Turn_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_TurnPB" TargetProperty="Actions" Source="Tags.Turn_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放料.Group2.bAct_TurnPB" TargetProperty="Value" Source="Tags.Turn_PB" />
+        <Item Target="手動_取放料.Group2.bAct_TurnPB" TargetProperty="Background" Source="Tags.Turn_SOL" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_UpDownPB" TargetProperty="Actions" Source="Tags.UpDown_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_UpDownPB" TargetProperty="Actions" Source="Tags.UpDown_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_UpDownPB" TargetProperty="Actions" Source="Tags.UpDown_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放料.Group2.bAct_UpDownPB" TargetProperty="Value" Source="Tags.UpDown_PB" />
+        <Item Target="手動_取放料.Group2.bAct_UpDownPB" TargetProperty="Background" Source="Tags.UpDown_SOL" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_ClipPB" TargetProperty="Actions" Source="Tags.Clip_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_ClipPB" TargetProperty="Actions" Source="Tags.Clip_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_ClipPB" TargetProperty="Actions" Source="Tags.Clip_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item Target="手動_取放料.Group2.bAct_ClipPB" TargetProperty="Value" Source="Tags.Clip_PB" />
+        <Item Target="手動_取放料.Group2.bAct_ClipPB" TargetProperty="Background" Source="Tags.Clip_SOL" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bPG_TimeSetting" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bPG_TimeSetting" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Set Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="手動_取放料.bPG_Seat" TargetProperty="Actions" Source="手動_取放料" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bPG_Main" TargetProperty="Actions" Source="主頁" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bPG_Tray" TargetProperty="Actions" Source="手動_取放盤" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bPG_TimeSetting" TargetProperty="Actions" Source="警報顯示" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>手動_取放料</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="手動_取放料.bPG_Seat" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bPG_Seat" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bPG_Main" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bPG_Main" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bPG_Main" TargetProperty="Actions" Source="Tags.CopyFileDataPB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bPG_Main" TargetProperty="Actions" Source="Tags.CopyFileDataPB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bPG_Main" TargetProperty="Actions" Source="Tags.CopyFileDataPB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bPG_Tray" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bPG_Tray" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bAct_ResetPB" TargetProperty="Actions" Source="Tags.AllServoResetPB_XY" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bAct_ResetPB" TargetProperty="Actions" Source="Tags.AllServoResetPB_XY" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bAct_ResetPB" TargetProperty="Actions" Source="Tags.AllServoResetPB_XY" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group1.bAct_AxisXFWPB" TargetProperty="Actions" Source="Tags.ServoJogForwardPB_AxisX" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group1.bAct_AxisXFWPB" TargetProperty="Actions" Source="Tags.ServoJogForwardPB_AxisX" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group1.bAct_AxisXFWPB" TargetProperty="Actions" Source="Tags.ServoJogForwardPB_AxisX" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group1.bAct_AxisXBWPB" TargetProperty="Actions" Source="Tags.ServoJogBackwardsPB_AxisX" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group1.bAct_AxisXBWPB" TargetProperty="Actions" Source="Tags.ServoJogBackwardsPB_AxisX" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group1.bAct_AxisXBWPB" TargetProperty="Actions" Source="Tags.ServoJogBackwardsPB_AxisX" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group1.bAct_AxisYBWPB" TargetProperty="Actions" Source="Tags.ServoJogBackwardsPB_AxisY" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group1.bAct_AxisYBWPB" TargetProperty="Actions" Source="Tags.ServoJogBackwardsPB_AxisY" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group1.bAct_AxisYBWPB" TargetProperty="Actions" Source="Tags.ServoJogBackwardsPB_AxisY" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group1.bAct_AxisYFWPB" TargetProperty="Actions" Source="Tags.ServoJogForwardPB_AxisY" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group1.bAct_AxisYFWPB" TargetProperty="Actions" Source="Tags.ServoJogForwardPB_AxisY" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group1.bAct_AxisYFWPB" TargetProperty="Actions" Source="Tags.ServoJogForwardPB_AxisY" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bSet_PosSetPB" TargetProperty="Actions" Source="Tags.PositionSetPB_AxisXY" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bSet_PosSetPB" TargetProperty="Actions" Source="Tags.PositionSetPB_AxisXY" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bSet_PosSetPB" TargetProperty="Actions" Source="Tags.PositionSetPB_AxisXY" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group.bAct_GoPickPosPB" TargetProperty="Actions" Source="Tags.GoPickPosPB_AxisXY" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group.bAct_GoPickPosPB" TargetProperty="Actions" Source="Tags.GoPickPosPB_AxisXY" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group.bAct_GoPickPosPB" TargetProperty="Actions" Source="Tags.GoPickPosPB_AxisXY" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group.bAct_GoRejectPosPB" TargetProperty="Actions" Source="Tags.GoRejectPosPB_AxisXY" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group.bAct_GoRejectPosPB" TargetProperty="Actions" Source="Tags.GoRejectPosPB_AxisXY" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group.bAct_GoRejectPosPB" TargetProperty="Actions" Source="Tags.GoRejectPosPB_AxisXY" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group.bAct_LoadTrayPB" TargetProperty="Actions" Source="Tags.GoAssemPosPB_AxisXY" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group.bAct_LoadTrayPB" TargetProperty="Actions" Source="Tags.GoAssemPosPB_AxisXY" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group.bAct_LoadTrayPB" TargetProperty="Actions" Source="Tags.GoAssemPosPB_AxisXY" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group.bAct_GoCheckPosPB" TargetProperty="Actions" Source="Tags.GoCheckPosPB_AxisXY" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group.bAct_GoCheckPosPB" TargetProperty="Actions" Source="Tags.GoCheckPosPB_AxisXY" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group.bAct_GoCheckPosPB" TargetProperty="Actions" Source="Tags.GoCheckPosPB_AxisXY" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group4.bAct_SpeedLowHigh" TargetProperty="Actions" Source="Tags.ServoJogSpeedFastPB" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group4.bAct_ServoOn" TargetProperty="Actions" Source="Tags.AllServoOnPB" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_TurnBackPB" TargetProperty="Actions" Source="Tags.TurnBack_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_TurnBackPB" TargetProperty="Actions" Source="Tags.TurnBack_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_TurnBackPB" TargetProperty="Actions" Source="Tags.TurnBack_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_CheckPB" TargetProperty="Actions" Source="Tags.Check_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_CheckPB" TargetProperty="Actions" Source="Tags.Check_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_CheckPB" TargetProperty="Actions" Source="Tags.Check_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_FixPB" TargetProperty="Actions" Source="Tags.Fix_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_FixPB" TargetProperty="Actions" Source="Tags.Fix_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_FixPB" TargetProperty="Actions" Source="Tags.Fix_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_TurnPB" TargetProperty="Actions" Source="Tags.Turn_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_TurnPB" TargetProperty="Actions" Source="Tags.Turn_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_TurnPB" TargetProperty="Actions" Source="Tags.Turn_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_UpDownPB" TargetProperty="Actions" Source="Tags.UpDown_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_UpDownPB" TargetProperty="Actions" Source="Tags.UpDown_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_UpDownPB" TargetProperty="Actions" Source="Tags.UpDown_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_ClipPB" TargetProperty="Actions" Source="Tags.Clip_PB" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_ClipPB" TargetProperty="Actions" Source="Tags.Clip_PB" Event="MouseLeave" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.Group2.bAct_ClipPB" TargetProperty="Actions" Source="Tags.Clip_PB" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bPG_TimeSetting" TargetProperty="Actions" Source="Tags.AutoStatus" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="手動_取放料.bPG_TimeSetting" TargetProperty="Actions" Source="Tags.ManualStatus" Event="Click" Action="Set Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

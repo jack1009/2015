@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.30.24.0">
+  <Categories>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="AlarmServer.Default.AlarmItem0" TargetProperty="Value" Source="Tags.EStopPB_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem1" TargetProperty="Value" Source="Tags.AirSource_SNR_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem2" TargetProperty="Value" Source="Tags.MoveBack_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem3" TargetProperty="Value" Source="Tags.MoveOut_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem4" TargetProperty="Value" Source="Tags.UpDownBack_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem5" TargetProperty="Value" Source="Tags.UpDownOut_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem6" TargetProperty="Value" Source="Tags.ClipBack_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem7" TargetProperty="Value" Source="Tags.ClipOut_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem8" TargetProperty="Value" Source="Tags.TurnBack_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem9" TargetProperty="Value" Source="Tags.TurnOut_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem10" TargetProperty="Value" Source="Tags.FixBack_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem11" TargetProperty="Value" Source="Tags.FixOut_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem12" TargetProperty="Value" Source="Tags.CheckBack_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem13" TargetProperty="Value" Source="Tags.CheckOut_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem14" TargetProperty="Value" Source="Tags.CheckOring1_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem15" TargetProperty="Value" Source="Tags.CheckOring2_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem16" TargetProperty="Value" Source="Tags.CheckPiston_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem17" TargetProperty="Value" Source="Tags.CheckTray_Up_SNR_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem18" TargetProperty="Value" Source="Tags.CheckTray_Down_SNR_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem19" TargetProperty="Value" Source="Tags.CheckObject_SNR_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem20" TargetProperty="Value" Source="Tags.AxisY_Positive_Limit_SNR_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem21" TargetProperty="Value" Source="Tags.AxisY_Negative_Limit_SNR_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem22" TargetProperty="Value" Source="Tags.AxisX_Positive_Limit_SNR_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem23" TargetProperty="Value" Source="Tags.AxisX_Negative_Limit_SNR_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem24" TargetProperty="Value" Source="Tags.AxisZ_Positive_Limit_SNR_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem25" TargetProperty="Value" Source="Tags.AxisZ_Negative_Limit_SNR_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem26" TargetProperty="Value" Source="Tags.CheckGate_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem27" TargetProperty="Value" Source="Tags.PickTrayBack1_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem28" TargetProperty="Value" Source="Tags.PickTrayOut1_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem29" TargetProperty="Value" Source="Tags.PickTrayBack2_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem30" TargetProperty="Value" Source="Tags.PickTrayOut2_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem31" TargetProperty="Value" Source="Tags.PickTrayClipBack1_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem32" TargetProperty="Value" Source="Tags.PickTrayClipOut1_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem33" TargetProperty="Value" Source="Tags.PickTrayClipBack2_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem34" TargetProperty="Value" Source="Tags.PickTrayClipOut2_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem35" TargetProperty="Value" Source="Tags.PickTrayClipBack3_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem36" TargetProperty="Value" Source="Tags.PickTrayClipOut3_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem37" TargetProperty="Value" Source="Tags.PickTrayClipBack4_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem38" TargetProperty="Value" Source="Tags.PickTrayClipOut4_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem39" TargetProperty="Value" Source="Tags.TakeTrayBack1_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem40" TargetProperty="Value" Source="Tags.TakeTrayOut1_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem41" TargetProperty="Value" Source="Tags.TakeTrayBack2_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem42" TargetProperty="Value" Source="Tags.TakeTrayOut2_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem43" TargetProperty="Value" Source="Tags.VerticalBarBack1_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem44" TargetProperty="Value" Source="Tags.VerticalBarOut1_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem45" TargetProperty="Value" Source="Tags.VerticalBarBack2_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem46" TargetProperty="Value" Source="Tags.VerticalBarOut2_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem47" TargetProperty="Value" Source="Tags.HorizontalBarBack_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem48" TargetProperty="Value" Source="Tags.HorizontalBarOut_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem49" TargetProperty="Value" Source="Tags.Tray_Full_SNR_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem50" TargetProperty="Value" Source="Tags.TakeTray_SNR_Error" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items />
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item Target="AlarmServer.Default.AlarmItem0" TargetProperty="Value" Source="Tags.EStopPB_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem1" TargetProperty="Value" Source="Tags.AirSource_SNR_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem2" TargetProperty="Value" Source="Tags.MoveBack_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem3" TargetProperty="Value" Source="Tags.MoveOut_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem4" TargetProperty="Value" Source="Tags.UpDownBack_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem5" TargetProperty="Value" Source="Tags.UpDownOut_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem6" TargetProperty="Value" Source="Tags.ClipBack_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem7" TargetProperty="Value" Source="Tags.ClipOut_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem8" TargetProperty="Value" Source="Tags.TurnBack_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem9" TargetProperty="Value" Source="Tags.TurnOut_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem10" TargetProperty="Value" Source="Tags.FixBack_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem11" TargetProperty="Value" Source="Tags.FixOut_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem12" TargetProperty="Value" Source="Tags.CheckBack_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem13" TargetProperty="Value" Source="Tags.CheckOut_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem14" TargetProperty="Value" Source="Tags.CheckOring1_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem15" TargetProperty="Value" Source="Tags.CheckOring2_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem16" TargetProperty="Value" Source="Tags.CheckPiston_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem17" TargetProperty="Value" Source="Tags.CheckTray_Up_SNR_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem18" TargetProperty="Value" Source="Tags.CheckTray_Down_SNR_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem19" TargetProperty="Value" Source="Tags.CheckObject_SNR_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem20" TargetProperty="Value" Source="Tags.AxisY_Positive_Limit_SNR_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem21" TargetProperty="Value" Source="Tags.AxisY_Negative_Limit_SNR_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem22" TargetProperty="Value" Source="Tags.AxisX_Positive_Limit_SNR_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem23" TargetProperty="Value" Source="Tags.AxisX_Negative_Limit_SNR_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem24" TargetProperty="Value" Source="Tags.AxisZ_Positive_Limit_SNR_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem25" TargetProperty="Value" Source="Tags.AxisZ_Negative_Limit_SNR_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem26" TargetProperty="Value" Source="Tags.CheckGate_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem27" TargetProperty="Value" Source="Tags.PickTrayBack1_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem28" TargetProperty="Value" Source="Tags.PickTrayOut1_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem29" TargetProperty="Value" Source="Tags.PickTrayBack2_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem30" TargetProperty="Value" Source="Tags.PickTrayOut2_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem31" TargetProperty="Value" Source="Tags.PickTrayClipBack1_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem32" TargetProperty="Value" Source="Tags.PickTrayClipOut1_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem33" TargetProperty="Value" Source="Tags.PickTrayClipBack2_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem34" TargetProperty="Value" Source="Tags.PickTrayClipOut2_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem35" TargetProperty="Value" Source="Tags.PickTrayClipBack3_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem36" TargetProperty="Value" Source="Tags.PickTrayClipOut3_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem37" TargetProperty="Value" Source="Tags.PickTrayClipBack4_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem38" TargetProperty="Value" Source="Tags.PickTrayClipOut4_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem39" TargetProperty="Value" Source="Tags.TakeTrayBack1_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem40" TargetProperty="Value" Source="Tags.TakeTrayOut1_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem41" TargetProperty="Value" Source="Tags.TakeTrayBack2_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem42" TargetProperty="Value" Source="Tags.TakeTrayOut2_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem43" TargetProperty="Value" Source="Tags.VerticalBarBack1_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem44" TargetProperty="Value" Source="Tags.VerticalBarOut1_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem45" TargetProperty="Value" Source="Tags.VerticalBarBack2_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem46" TargetProperty="Value" Source="Tags.VerticalBarOut2_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem47" TargetProperty="Value" Source="Tags.HorizontalBarBack_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem48" TargetProperty="Value" Source="Tags.HorizontalBarOut_LS_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem49" TargetProperty="Value" Source="Tags.Tray_Full_SNR_Error" />
+        <Item Target="AlarmServer.Default.AlarmItem50" TargetProperty="Value" Source="Tags.TakeTray_SNR_Error" />
+      </Items>
+    </Category>
+  </Categories>
+</CrossReferences>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.30.24.0'?>
+<NeoItem d1p1:Serializer="Neo.ApplicationFramework.Common.Serialization.ObjectSerializer" xmlns:d1p1="urn:Neo.ApplicationFramework.Serializer">
+  <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.Project, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" LastConverterVersion="2.22.10624" IsOnScreenKeyboardEnabled="True" IsMultiLanguageTextIdsEnabled="False" KeyboardLayoutName="US" OverwriteFilesOnTarget="Select" ScreenCacheDefault="True" IsGcServerMode="False" InputDelay="2000" CurrentTargetPlatform="WindowsCE" CurrentTargetPlatformVersion="CE6" DesignerScreenBorderStyle="None" MainScreenTitle="Assembely_15_805A_20160416" Topmost="True" StartupLocation="0, 0" Version="2.30.24.0" KeepBacklightOnIfNotifierWindowIsVisible="False" AutomaticallyTurnOfBacklight="False" BacklightTimeout="900" KeyBeep="True" TimeZoneDisplayName="" TimeZoneId="-1" RegionLCID="0" AdjustForDaylightSaving="True" Guid="ce1961f1-9fd7-4b80-8117-64b2331f184b" TemplateProjectGuid="00000000-0000-0000-0000-000000000000" TemplateProjectFileTicks="0" AlarmButtonShowScreenTarget="" FtpServerFriendlyNamesEnabled="False" StartupObject="主頁" Name="Assembely_15_805A_20200924" Filename="Assembely_15_805A_20200924.neoproj" IsAlwaysHidden="False">
+    <StorageProviderSettings>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Storage.LocallyHostedProjectStorageProviderSettings, ToolsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" RootDirectory="" CheckMaxSize="False" StorageLocationIsSdCard="False" DisplayName="SQLite Database">
+        <Settings>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Storage.ProjectStorageProviderSetting, ToolsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Key="BackupAtStartup">
+            <Value>
+              <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="False" />
+            </Value>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Storage.ProjectStorageProviderSetting, ToolsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Key="MaxSize">
+            <Value>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="0" />
+            </Value>
+          </Object>
+        </Settings>
+      </Object>
+    </StorageProviderSettings>
+    <VisibleLanguageColumns>
+      <Object d1p1:type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+        <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Default Text" />
+      </Object>
+    </VisibleLanguageColumns>
+    <ComPortModes>
+      <Object d1p1:type="System.Collections.Generic.Dictionary`2[[Neo.ApplicationFramework.Interfaces.ComPort, InterfacesCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null],[Neo.ApplicationFramework.Interfaces.PortMode, InterfacesCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+        <KeyValuePair>
+          <Key>
+            <Object d1p1:type="Neo.ApplicationFramework.Interfaces.ComPort, InterfacesCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null">
+              <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Interfaces.ComPort, InterfacesCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="COM1" MemberType="Field" />
+            </Object>
+          </Key>
+          <Value>
+            <Object d1p1:type="Neo.ApplicationFramework.Interfaces.PortMode, InterfacesCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null">
+              <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Interfaces.PortMode, InterfacesCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="Nonconfigurable" MemberType="Field" />
+            </Object>
+          </Value>
+        </KeyValuePair>
+        <KeyValuePair>
+          <Key>
+            <Object d1p1:type="Neo.ApplicationFramework.Interfaces.ComPort, InterfacesCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null">
+              <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Interfaces.ComPort, InterfacesCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="COM2" MemberType="Field" />
+            </Object>
+          </Key>
+          <Value>
+            <Object d1p1:type="Neo.ApplicationFramework.Interfaces.PortMode, InterfacesCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null">
+              <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Interfaces.PortMode, InterfacesCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="rs422" MemberType="Field" />
+            </Object>
+          </Value>
+        </KeyValuePair>
+        <KeyValuePair>
+          <Key>
+            <Object d1p1:type="Neo.ApplicationFramework.Interfaces.ComPort, InterfacesCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null">
+              <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Interfaces.ComPort, InterfacesCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="COM3" MemberType="Field" />
+            </Object>
+          </Key>
+          <Value>
+            <Object d1p1:type="Neo.ApplicationFramework.Interfaces.PortMode, InterfacesCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null">
+              <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Interfaces.PortMode, InterfacesCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="Nonconfigurable" MemberType="Field" />
+            </Object>
+          </Value>
+        </KeyValuePair>
+        <KeyValuePair>
+          <Key>
+            <Object d1p1:type="Neo.ApplicationFramework.Interfaces.ComPort, InterfacesCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null">
+              <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Interfaces.ComPort, InterfacesCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="COM4" MemberType="Field" />
+            </Object>
+          </Key>
+          <Value>
+            <Object d1p1:type="Neo.ApplicationFramework.Interfaces.PortMode, InterfacesCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null">
+              <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Interfaces.PortMode, InterfacesCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="rs485" MemberType="Field" />
+            </Object>
+          </Value>
+        </KeyValuePair>
+      </Object>
+    </ComPortModes>
+    <FtpServerSettings>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.FtpServer.FtpServerSettings, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" FtpServerEnabled="False" FtpServerAllowAnonymous="False" FtpServerSdCardAccess="False" FtpServerUsbAccess="False" FtpServerDefaultDir="" NTLMUser="" NTLMPassword="" />
+    </FtpServerSettings>
+    <VncServerSettings>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.VncServer.VncServerSettings, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" VncServerEnabled="False" VncTcpPort="5900" VncHttpTcpPort="5800" VncViewOnlyPassword="" VncFullAccessPassword="" />
+    </VncServerSettings>
+    <ProjectItems>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.GroupProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="Functions" Filename="Functions.neo" IsAlwaysHidden="False">
+        <ProjectItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.DesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" DesignerTypeName="Neo.ApplicationFramework.Tools.Alarm.AlarmServer, ToolsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="AlarmServer" Filename="AlarmServer.neo" IsAlwaysHidden="False" />
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Expressions.ExpressionDesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" DesignerTypeName="Neo.ApplicationFramework.Tools.Expressions.ExpressionManager, ToolsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="Expressions" Filename="Expressions.neo" IsAlwaysHidden="True" />
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.DesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" DesignerTypeName="Neo.ApplicationFramework.Tools.License.LicenseRootComponent, ToolsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="LicenseRootComponent" Filename="LicenseRootComponent.neo" IsAlwaysHidden="True" />
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.DesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" DesignerTypeName="Neo.ApplicationFramework.Tools.MultiLanguage.MultiLanguageServer, ToolsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="MultipleLanguages" Filename="MultipleLanguages.neo" IsAlwaysHidden="False" />
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.DesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" DesignerTypeName="Neo.ApplicationFramework.Tools.OpcClient.GlobalController, ToolsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="Tags" Filename="Tags.neo" IsAlwaysHidden="False" />
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.DesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" DesignerTypeName="Neo.ApplicationFramework.Tools.ProjectConfiguration.ProjectConfiguration, ToolsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="ProjectConfiguration" Filename="ProjectConfiguration.neo" IsAlwaysHidden="True" />
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.DesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" DesignerTypeName="Neo.ApplicationFramework.Tools.Security.SecurityManager, ToolsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="Security" Filename="Security.neo" IsAlwaysHidden="False" />
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.DesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" DesignerTypeName="Neo.ApplicationFramework.Tools.SNTP.SntpClientRootComponent, ToolsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="SntpClientRootComponent" Filename="SntpClientRootComponent.neo" IsAlwaysHidden="True" />
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.DesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" DesignerTypeName="Neo.ApplicationFramework.Tools.Symbol.SymbolStorageItem, ToolsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="ProjectImages" Filename="ProjectImages.neo" IsAlwaysHidden="True" />
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.DesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" DesignerTypeName="Neo.ApplicationFramework.Tools.FunctionKey.FunctionKeyManager, ToolsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="FunctionKeys" Filename="FunctionKeys.neo" IsAlwaysHidden="False" />
+        </ProjectItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.GroupProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="Screens" Filename="Screens.neo" IsAlwaysHidden="False">
+        <ProjectItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.ScreenDesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" IsPopUp="False" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" PreloadAtRuntimeStartup="False" Group="Screens" DesignerTypeName="Neo.ApplicationFramework.Tools.Screen.ScreenDesign.Screen, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="S1手動" Filename="S1手動.neoxaml" IsAlwaysHidden="False">
+            <TemplateScreen>
+              <Object d1p1:type="Neo.ApplicationFramework.Controls.Screen.TemplateScreen, ControlsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="基礎畫面" RenderMode="Foreground" />
+            </TemplateScreen>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.ScreenDesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" IsPopUp="False" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" PreloadAtRuntimeStartup="False" Group="Screens" DesignerTypeName="Neo.ApplicationFramework.Tools.Screen.ScreenDesign.Screen, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="S2手動" Filename="S2手動.neoxaml" IsAlwaysHidden="False">
+            <TemplateScreen>
+              <Object d1p1:type="Neo.ApplicationFramework.Controls.Screen.TemplateScreen, ControlsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="基礎畫面" RenderMode="Foreground" />
+            </TemplateScreen>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.ScreenDesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" IsPopUp="False" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" PreloadAtRuntimeStartup="False" Group="Screens" DesignerTypeName="Neo.ApplicationFramework.Tools.Screen.ScreenDesign.Screen, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="手動選擇" Filename="手動選擇.neoxaml" IsAlwaysHidden="False">
+            <TemplateScreen>
+              <Object d1p1:type="Neo.ApplicationFramework.Controls.Screen.TemplateScreen, ControlsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="基礎畫面" RenderMode="Background" />
+            </TemplateScreen>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.ScreenDesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" IsPopUp="False" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" PreloadAtRuntimeStartup="False" Group="Screens" DesignerTypeName="Neo.ApplicationFramework.Tools.Screen.ScreenDesign.Screen, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="S3手動" Filename="S3手動.neoxaml" IsAlwaysHidden="False">
+            <TemplateScreen>
+              <Object d1p1:type="Neo.ApplicationFramework.Controls.Screen.TemplateScreen, ControlsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="基礎畫面" RenderMode="Foreground" />
+            </TemplateScreen>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.ScreenDesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" IsPopUp="False" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" PreloadAtRuntimeStartup="False" Group="Screens" DesignerTypeName="Neo.ApplicationFramework.Tools.Screen.ScreenDesign.Screen, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="S4手動" Filename="S4手動.neoxaml" IsAlwaysHidden="False">
+            <TemplateScreen>
+              <Object d1p1:type="Neo.ApplicationFramework.Controls.Screen.TemplateScreen, ControlsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="基礎畫面" RenderMode="Background" />
+            </TemplateScreen>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.ScreenDesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" IsPopUp="False" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" PreloadAtRuntimeStartup="False" Group="Screens" DesignerTypeName="Neo.ApplicationFramework.Tools.Screen.ScreenDesign.Screen, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="基礎畫面" Filename="基礎畫面.neoxaml" IsAlwaysHidden="False" />
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.ScreenDesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" IsPopUp="False" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" PreloadAtRuntimeStartup="False" Group="Screens" DesignerTypeName="Neo.ApplicationFramework.Tools.Screen.ScreenDesign.Screen, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="S5手動" Filename="S5手動.neoxaml" IsAlwaysHidden="False">
+            <TemplateScreen>
+              <Object d1p1:type="Neo.ApplicationFramework.Controls.Screen.TemplateScreen, ControlsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="基礎畫面" RenderMode="Background" />
+            </TemplateScreen>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.ScreenDesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" IsPopUp="False" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" PreloadAtRuntimeStartup="False" Group="Screens" DesignerTypeName="Neo.ApplicationFramework.Tools.Screen.ScreenDesign.Screen, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="S6手動" Filename="S6手動.neoxaml" IsAlwaysHidden="False">
+            <TemplateScreen>
+              <Object d1p1:type="Neo.ApplicationFramework.Controls.Screen.TemplateScreen, ControlsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="基礎畫面" RenderMode="Background" />
+            </TemplateScreen>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.ScreenDesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" IsPopUp="False" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" PreloadAtRuntimeStartup="False" Group="Screens" DesignerTypeName="Neo.ApplicationFramework.Tools.Screen.ScreenDesign.Screen, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="S7手動" Filename="S7手動.neoxaml" IsAlwaysHidden="False">
+            <TemplateScreen>
+              <Object d1p1:type="Neo.ApplicationFramework.Controls.Screen.TemplateScreen, ControlsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="基礎畫面" RenderMode="Background" />
+            </TemplateScreen>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.ScreenDesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" IsPopUp="False" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" PreloadAtRuntimeStartup="False" Group="Screens" DesignerTypeName="Neo.ApplicationFramework.Tools.Screen.ScreenDesign.Screen, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="S8手動" Filename="S8手動.neoxaml" IsAlwaysHidden="False">
+            <TemplateScreen>
+              <Object d1p1:type="Neo.ApplicationFramework.Controls.Screen.TemplateScreen, ControlsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="基礎畫面" RenderMode="Background" />
+            </TemplateScreen>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.ScreenDesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" IsPopUp="False" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" PreloadAtRuntimeStartup="False" Group="Screens" DesignerTypeName="Neo.ApplicationFramework.Tools.Screen.ScreenDesign.Screen, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="S9手動" Filename="S9手動.neoxaml" IsAlwaysHidden="False">
+            <TemplateScreen>
+              <Object d1p1:type="Neo.ApplicationFramework.Controls.Screen.TemplateScreen, ControlsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="基礎畫面" RenderMode="Background" />
+            </TemplateScreen>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.ScreenDesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" IsPopUp="False" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" PreloadAtRuntimeStartup="False" Group="Screens" DesignerTypeName="Neo.ApplicationFramework.Tools.Screen.ScreenDesign.Screen, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="主頁" Filename="主頁.neoxaml" IsAlwaysHidden="False">
+            <TemplateScreen>
+              <Object d1p1:type="Neo.ApplicationFramework.Controls.Screen.TemplateScreen, ControlsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="基礎畫面" RenderMode="Background" />
+            </TemplateScreen>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.ScreenDesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" IsPopUp="False" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" PreloadAtRuntimeStartup="False" Group="Screens" DesignerTypeName="Neo.ApplicationFramework.Tools.Screen.ScreenDesign.Screen, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="S10手動" Filename="S10手動.neoxaml" IsAlwaysHidden="False">
+            <TemplateScreen>
+              <Object d1p1:type="Neo.ApplicationFramework.Controls.Screen.TemplateScreen, ControlsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="基礎畫面" RenderMode="Background" />
+            </TemplateScreen>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.ScreenDesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" IsPopUp="False" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" PreloadAtRuntimeStartup="False" Group="Screens" DesignerTypeName="Neo.ApplicationFramework.Tools.Screen.ScreenDesign.Screen, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="S11手動" Filename="S11手動.neoxaml" IsAlwaysHidden="False" />
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.ScreenDesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" IsPopUp="False" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" PreloadAtRuntimeStartup="False" Group="Screens" DesignerTypeName="Neo.ApplicationFramework.Tools.Screen.ScreenDesign.Screen, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="測試" Filename="測試.neoxaml" IsAlwaysHidden="False" />
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.ScreenDesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" IsPopUp="False" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" PreloadAtRuntimeStartup="False" Group="Screens" DesignerTypeName="Neo.ApplicationFramework.Tools.Screen.ScreenDesign.Screen, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="時間1" Filename="時間1.neoxaml" IsAlwaysHidden="False">
+            <TemplateScreen>
+              <Object d1p1:type="Neo.ApplicationFramework.Controls.Screen.TemplateScreen, ControlsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="基礎畫面" RenderMode="Background" />
+            </TemplateScreen>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.ScreenDesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" IsPopUp="False" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" PreloadAtRuntimeStartup="False" Group="Screens" DesignerTypeName="Neo.ApplicationFramework.Tools.Screen.ScreenDesign.Screen, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="時間2" Filename="時間2.neoxaml" IsAlwaysHidden="False">
+            <TemplateScreen>
+              <Object d1p1:type="Neo.ApplicationFramework.Controls.Screen.TemplateScreen, ControlsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="基礎畫面" RenderMode="Background" />
+            </TemplateScreen>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.ScreenDesignerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" IsPopUp="False" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" PreloadAtRuntimeStartup="False" Group="Screens" DesignerTypeName="Neo.ApplicationFramework.Tools.Screen.ScreenDesign.Screen, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="工作站選擇" Filename="工作站選擇.neoxaml" IsAlwaysHidden="False">
+            <TemplateScreen>
+              <Object d1p1:type="Neo.ApplicationFramework.Controls.Screen.TemplateScreen, ControlsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="基礎畫面" RenderMode="Background" />
+            </TemplateScreen>
+          </Object>
+        </ProjectItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.DeviceManager.DeviceManagerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="Devices" Filename="Devices.xml" IsAlwaysHidden="False">
+        <ProjectItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.DeviceManager.OutputDeviceProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="Printer1" Filename="Printer1.xml" IsAlwaysHidden="True" />
+        </ProjectItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.GroupProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="Controllers" Filename="Controllers.neo" IsAlwaysHidden="False">
+        <ProjectItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.ProjectManager.ControllerProjectItem, ToolsIde, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" DesignerTypeName="Neo.ApplicationFramework.Tools.OpcClient.DataSourceContainer, ToolsCF, Version=2.30.24.0, Culture=neutral, PublicKeyToken=null" Name="Controller2" Filename="Controller2.neo" IsAlwaysHidden="True" />
+        </ProjectItems>
+      </Object>
+    </ProjectItems>
+  </Object>
+</NeoItem>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.20.2296.0'?>
+<NeoItem d1p1:Serializer="Neo.ApplicationFramework.Common.Serialization.ObjectSerializer" xmlns:d1p1="urn:Neo.ApplicationFramework.Serializer">
+  <Object d1p1:type="Neo.ApplicationFramework.Tools.FunctionKey.FunctionKeyManager, ToolsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" d1p1:Site.Name="FunctionKeys" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+    <GlobalFunctionKeys>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKey, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name="F1" KeyCode="F1" d1p1:Site.Name="F1" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+        <SecurityProperties>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Security.SecurityPropertiesCF, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" />
+        </SecurityProperties>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKey, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name="F2" KeyCode="F2" d1p1:Site.Name="F2" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+        <SecurityProperties>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Security.SecurityPropertiesCF, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" />
+        </SecurityProperties>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKey, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name="F3" KeyCode="F3" d1p1:Site.Name="F3" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+        <SecurityProperties>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Security.SecurityPropertiesCF, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" />
+        </SecurityProperties>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKey, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name="F4" KeyCode="F4" d1p1:Site.Name="F4" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+        <SecurityProperties>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Security.SecurityPropertiesCF, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" />
+        </SecurityProperties>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKey, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name="F5" KeyCode="F5" d1p1:Site.Name="F5" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+        <SecurityProperties>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Security.SecurityPropertiesCF, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" />
+        </SecurityProperties>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKey, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name="F6" KeyCode="F6" d1p1:Site.Name="F6" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+        <SecurityProperties>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Security.SecurityPropertiesCF, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" />
+        </SecurityProperties>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKey, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name="F7" KeyCode="F7" d1p1:Site.Name="F7" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+        <SecurityProperties>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Security.SecurityPropertiesCF, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" />
+        </SecurityProperties>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKey, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name="F8" KeyCode="F8" d1p1:Site.Name="F8" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+        <SecurityProperties>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Security.SecurityPropertiesCF, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" />
+        </SecurityProperties>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKey, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name="F9" KeyCode="F9" d1p1:Site.Name="F9" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+        <SecurityProperties>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Security.SecurityPropertiesCF, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" />
+        </SecurityProperties>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKey, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name="F10" KeyCode="F10" d1p1:Site.Name="F10" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+        <SecurityProperties>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Security.SecurityPropertiesCF, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" />
+        </SecurityProperties>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKey, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name="F11" KeyCode="F11" d1p1:Site.Name="F11" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+        <SecurityProperties>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Security.SecurityPropertiesCF, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" />
+        </SecurityProperties>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKey, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name="F12" KeyCode="F12" d1p1:Site.Name="F12" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+        <SecurityProperties>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Security.SecurityPropertiesCF, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" />
+        </SecurityProperties>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKey, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name="F13" KeyCode="F13" d1p1:Site.Name="F13" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+        <SecurityProperties>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Security.SecurityPropertiesCF, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" />
+        </SecurityProperties>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKey, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name="F14" KeyCode="F14" d1p1:Site.Name="F14" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+        <SecurityProperties>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Security.SecurityPropertiesCF, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" />
+        </SecurityProperties>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKey, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name="F15" KeyCode="F15" d1p1:Site.Name="F15" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+        <SecurityProperties>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Security.SecurityPropertiesCF, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" />
+        </SecurityProperties>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKey, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name="F16" KeyCode="F16" d1p1:Site.Name="F16" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+        <SecurityProperties>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Security.SecurityPropertiesCF, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" />
+        </SecurityProperties>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKey, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name="F17" KeyCode="F17" d1p1:Site.Name="F17" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+        <SecurityProperties>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Security.SecurityPropertiesCF, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" />
+        </SecurityProperties>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKey, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name="F18" KeyCode="F18" d1p1:Site.Name="F18" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+        <SecurityProperties>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Security.SecurityPropertiesCF, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" />
+        </SecurityProperties>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKey, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name="F19" KeyCode="F19" d1p1:Site.Name="F19" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+        <SecurityProperties>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Security.SecurityPropertiesCF, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" />
+        </SecurityProperties>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKey, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name="F20" KeyCode="F20" d1p1:Site.Name="F20" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+        <SecurityProperties>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Security.SecurityPropertiesCF, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" />
+        </SecurityProperties>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKey, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name="F21" KeyCode="F21" d1p1:Site.Name="F21" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+        <SecurityProperties>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Security.SecurityPropertiesCF, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" />
+        </SecurityProperties>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKey, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name="F22" KeyCode="F22" d1p1:Site.Name="F22" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+        <SecurityProperties>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Security.SecurityPropertiesCF, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" />
+        </SecurityProperties>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKey, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name="F23" KeyCode="F23" d1p1:Site.Name="F23" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+        <SecurityProperties>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Security.SecurityPropertiesCF, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" />
+        </SecurityProperties>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKey, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" Name="F24" KeyCode="F24" d1p1:Site.Name="F24" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b">
+        <SecurityProperties>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Security.SecurityPropertiesCF, CommonCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" />
+        </SecurityProperties>
+      </Object>
+    </GlobalFunctionKeys>
+    <LocalFunctionKeys>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKeyContext, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" ScreenName="S1手動" Name="S1手動" d1p1:Site.Name="S1手動" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" />
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKeyContext, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" ScreenName="S2手動" Name="S2手動" d1p1:Site.Name="S2手動" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" />
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKeyContext, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" ScreenName="手動選擇" Name="手動選擇" d1p1:Site.Name="手動選擇" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" />
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKeyContext, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" ScreenName="S3手動" Name="S3手動" d1p1:Site.Name="S3手動" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" />
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKeyContext, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" ScreenName="S4手動" Name="S4手動" d1p1:Site.Name="S4手動" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" />
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKeyContext, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" ScreenName="基礎畫面" Name="基礎畫面" d1p1:Site.Name="基礎畫面" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" />
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKeyContext, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" ScreenName="S5手動" Name="S5手動" d1p1:Site.Name="S5手動" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" />
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKeyContext, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" ScreenName="S6手動" Name="S6手動" d1p1:Site.Name="S6手動" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" />
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKeyContext, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" ScreenName="S7手動" Name="S7手動" d1p1:Site.Name="S7手動" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" />
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKeyContext, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" ScreenName="S8手動" Name="S8手動" d1p1:Site.Name="S8手動" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" />
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKeyContext, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" ScreenName="S9手動" Name="S9手動" d1p1:Site.Name="S9手動" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" />
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKeyContext, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" ScreenName="主頁" Name="主頁" d1p1:Site.Name="主頁" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" />
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKeyContext, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" ScreenName="S10手動" Name="S10手動" d1p1:Site.Name="S10手動" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" />
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKeyContext, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" ScreenName="S11手動" Name="S11手動" d1p1:Site.Name="S11手動" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" />
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKeyContext, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" ScreenName="測試" Name="測試" d1p1:Site.Name="測試" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" />
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKeyContext, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" ScreenName="時間1" Name="時間1" d1p1:Site.Name="時間1" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" />
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKeyContext, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" ScreenName="時間2" Name="時間2" d1p1:Site.Name="時間2" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" />
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.FunctionKey.FunctionKeyContext, ControlsCF, Version=2.20.2296.0, Culture=neutral, PublicKeyToken=null" ScreenName="工作站選擇" Name="工作站選擇" d1p1:Site.Name="工作站選擇" ProjectGuid="ce1961f1-9fd7-4b80-8117-64b2331f184b" />
+    </LocalFunctionKeys>
+  </Object>
+</NeoItem>
